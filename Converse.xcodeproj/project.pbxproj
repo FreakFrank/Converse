@@ -55,7 +55,6 @@
 		2F4447891F3A08BD00A012EE = {
 			isa = PBXGroup;
 			children = (
-				2F6F98121F41DC6E00A41D08 /* Supporting Files */,
 				2F4447941F3A08BD00A012EE /* Converse */,
 				2F4447931F3A08BD00A012EE /* Products */,
 				4F545A0806CFA4C1918E3396 /* Pods */,
@@ -74,6 +73,7 @@
 		2F4447941F3A08BD00A012EE /* Converse */ = {
 			isa = PBXGroup;
 			children = (
+				2F6F98121F41DC6E00A41D08 /* Supporting Files */,
 				2F4447951F3A08BD00A012EE /* AppDelegate.swift */,
 				2F4447971F3A08BD00A012EE /* ViewController.swift */,
 				2F4447991F3A08BD00A012EE /* Main.storyboard */,
@@ -92,6 +92,7 @@
 				2F6F98131F41DDD600A41D08 /* Converse-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
+			path = ..;
 			sourceTree = "<group>";
 		};
 		4F545A0806CFA4C1918E3396 /* Pods */ = {
