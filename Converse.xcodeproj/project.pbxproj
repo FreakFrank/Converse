@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		2F4447961F3A08BD00A012EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4447951F3A08BD00A012EE /* AppDelegate.swift */; };
-		2F4447981F3A08BD00A012EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4447971F3A08BD00A012EE /* ViewController.swift */; };
 		2F44479B1F3A08BD00A012EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4447991F3A08BD00A012EE /* Main.storyboard */; };
 		2F44479D1F3A08BD00A012EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F44479C1F3A08BD00A012EE /* Assets.xcassets */; };
 		2F4447A01F3A08BD00A012EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F44479E1F3A08BD00A012EE /* LaunchScreen.storyboard */; };
 		2F6F98161F41DDD600A41D08 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6F98151F41DDD600A41D08 /* SWRevealViewController.m */; };
+		2FFB7A411F44EDC600B92DA9 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB7A401F44EDC600B92DA9 /* ChannelViewController.swift */; };
+		2FFB7A431F44EDDA00B92DA9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB7A421F44EDDA00B92DA9 /* ChatViewController.swift */; };
 		B19B002D683223DCA2A91DA4 /* Pods_Converse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D26BAA0CF5723B9D6B36C1B /* Pods_Converse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F4447921F3A08BD00A012EE /* Converse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Converse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4447951F3A08BD00A012EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F4447971F3A08BD00A012EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F44479A1F3A08BD00A012EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F44479C1F3A08BD00A012EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F44479F1F3A08BD00A012EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -27,6 +27,8 @@
 		2F6F98131F41DDD600A41D08 /* Converse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Converse-Bridging-Header.h"; sourceTree = "<group>"; };
 		2F6F98141F41DDD600A41D08 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		2F6F98151F41DDD600A41D08 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		2FFB7A401F44EDC600B92DA9 /* ChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		2FFB7A421F44EDDA00B92DA9 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		9D26BAA0CF5723B9D6B36C1B /* Pods_Converse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Converse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95F4EEC50E689854C917458 /* Pods-Converse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Converse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Converse/Pods-Converse.debug.xcconfig"; sourceTree = "<group>"; };
 		F44E5E1C03D8231D5AC87492 /* Pods-Converse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Converse.release.xcconfig"; path = "Pods/Target Support Files/Pods-Converse/Pods-Converse.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,9 +75,11 @@
 		2F4447941F3A08BD00A012EE /* Converse */ = {
 			isa = PBXGroup;
 			children = (
+				2FFB7A3F1F44EB9A00B92DA9 /* Controller */,
+				2FFB7A3E1F44EB9500B92DA9 /* View */,
+				2FFB7A3D1F44EB8E00B92DA9 /* Model */,
 				2F6F98121F41DC6E00A41D08 /* Supporting Files */,
 				2F4447951F3A08BD00A012EE /* AppDelegate.swift */,
-				2F4447971F3A08BD00A012EE /* ViewController.swift */,
 				2F4447991F3A08BD00A012EE /* Main.storyboard */,
 				2F44479C1F3A08BD00A012EE /* Assets.xcassets */,
 				2F44479E1F3A08BD00A012EE /* LaunchScreen.storyboard */,
@@ -93,6 +97,29 @@
 			);
 			name = "Supporting Files";
 			path = ..;
+			sourceTree = "<group>";
+		};
+		2FFB7A3D1F44EB8E00B92DA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2FFB7A3E1F44EB9500B92DA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2FFB7A3F1F44EB9A00B92DA9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FFB7A401F44EDC600B92DA9 /* ChannelViewController.swift */,
+				2FFB7A421F44EDDA00B92DA9 /* ChatViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		4F545A0806CFA4C1918E3396 /* Pods */ = {
@@ -229,8 +256,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F4447981F3A08BD00A012EE /* ViewController.swift in Sources */,
 				2F4447961F3A08BD00A012EE /* AppDelegate.swift in Sources */,
+				2FFB7A411F44EDC600B92DA9 /* ChannelViewController.swift in Sources */,
+				2FFB7A431F44EDDA00B92DA9 /* ChatViewController.swift in Sources */,
 				2F6F98161F41DDD600A41D08 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
