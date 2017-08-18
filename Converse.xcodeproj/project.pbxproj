@@ -12,6 +12,7 @@
 		2F44479D1F3A08BD00A012EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F44479C1F3A08BD00A012EE /* Assets.xcassets */; };
 		2F4447A01F3A08BD00A012EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F44479E1F3A08BD00A012EE /* LaunchScreen.storyboard */; };
 		2F6F98161F41DDD600A41D08 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6F98151F41DDD600A41D08 /* SWRevealViewController.m */; };
+		2FA767271F472B2900B030FF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA767261F472B2900B030FF /* GradientView.swift */; };
 		2FFB7A411F44EDC600B92DA9 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB7A401F44EDC600B92DA9 /* ChannelViewController.swift */; };
 		2FFB7A431F44EDDA00B92DA9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB7A421F44EDDA00B92DA9 /* ChatViewController.swift */; };
 		B19B002D683223DCA2A91DA4 /* Pods_Converse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D26BAA0CF5723B9D6B36C1B /* Pods_Converse.framework */; };
@@ -27,6 +28,7 @@
 		2F6F98131F41DDD600A41D08 /* Converse-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Converse-Bridging-Header.h"; sourceTree = "<group>"; };
 		2F6F98141F41DDD600A41D08 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		2F6F98151F41DDD600A41D08 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		2FA767261F472B2900B030FF /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		2FFB7A401F44EDC600B92DA9 /* ChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
 		2FFB7A421F44EDDA00B92DA9 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		9D26BAA0CF5723B9D6B36C1B /* Pods_Converse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Converse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +111,7 @@
 		2FFB7A3E1F44EB9500B92DA9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2FA767261F472B2900B030FF /* GradientView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				2F4447961F3A08BD00A012EE /* AppDelegate.swift in Sources */,
 				2FFB7A411F44EDC600B92DA9 /* ChannelViewController.swift in Sources */,
+				2FA767271F472B2900B030FF /* GradientView.swift in Sources */,
 				2FFB7A431F44EDDA00B92DA9 /* ChatViewController.swift in Sources */,
 				2F6F98161F41DDD600A41D08 /* SWRevealViewController.m in Sources */,
 			);

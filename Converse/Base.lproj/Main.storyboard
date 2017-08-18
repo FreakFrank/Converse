@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -42,7 +43,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aDB-Xa-dp0">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aDB-Xa-dp0" customClass="GradientView" customModule="Converse" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFu-va-oDj">
@@ -93,18 +94,65 @@
                         <viewControllerLayoutGuide type="top" id="u4q-gq-DeG"/>
                         <viewControllerLayoutGuide type="bottom" id="UGn-Sp-i6k"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="rSp-R6-iFf">
+                    <view key="view" contentMode="scaleToFill" id="rSp-R6-iFf" customClass="GradientView" customModule="Converse" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Converse" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zcg-S5-Ue4">
+                                <rect key="frame" x="16" y="33" width="96" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CHANNELS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mde-TZ-RWk">
+                                <rect key="frame" x="16" y="74" width="81" height="21"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="12"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iiy-QH-l2Z">
+                                <rect key="frame" x="296" y="73" width="22" height="22"/>
+                                <state key="normal" image="addChannelButton"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="h2k-pR-AhL">
+                                <rect key="frame" x="16" y="537" width="110" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="Tzz-qH-U0Z"/>
+                                    <constraint firstAttribute="width" constant="110" id="cvC-8t-WHt"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="or6-yf-29u">
+                                <rect key="frame" x="145" y="576" width="50" height="33"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mde-TZ-RWk" firstAttribute="top" secondItem="Zcg-S5-Ue4" secondAttribute="bottom" constant="20" id="0z9-6u-Os2"/>
+                            <constraint firstItem="Zcg-S5-Ue4" firstAttribute="top" secondItem="u4q-gq-DeG" secondAttribute="bottom" constant="13" id="Ei7-lN-qHT"/>
+                            <constraint firstItem="h2k-pR-AhL" firstAttribute="leading" secondItem="rSp-R6-iFf" secondAttribute="leadingMargin" id="KwD-i4-DLI"/>
+                            <constraint firstItem="or6-yf-29u" firstAttribute="leading" secondItem="h2k-pR-AhL" secondAttribute="trailing" constant="19" id="Mvg-4u-loF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Iiy-QH-l2Z" secondAttribute="trailing" constant="41" id="PiA-2k-gDF"/>
+                            <constraint firstItem="Iiy-QH-l2Z" firstAttribute="centerY" secondItem="Mde-TZ-RWk" secondAttribute="centerY" id="cHW-WE-xLN"/>
+                            <constraint firstItem="or6-yf-29u" firstAttribute="centerY" secondItem="h2k-pR-AhL" secondAttribute="centerY" id="g13-pZ-peb"/>
+                            <constraint firstItem="Iiy-QH-l2Z" firstAttribute="top" secondItem="u4q-gq-DeG" secondAttribute="bottom" constant="53" id="jOa-mT-kWl"/>
+                            <constraint firstItem="Mde-TZ-RWk" firstAttribute="leading" secondItem="rSp-R6-iFf" secondAttribute="leadingMargin" id="oJd-n3-D8B"/>
+                            <constraint firstItem="UGn-Sp-i6k" firstAttribute="top" secondItem="h2k-pR-AhL" secondAttribute="bottom" constant="20" id="y2d-h8-09t"/>
+                            <constraint firstItem="Zcg-S5-Ue4" firstAttribute="leading" secondItem="rSp-R6-iFf" secondAttribute="leadingMargin" id="zP0-7B-UbF"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ilc-5Y-mbM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="990" y="-220"/>
+            <point key="canvasLocation" x="989.60000000000002" y="-220.83958020989508"/>
         </scene>
     </scenes>
     <resources>
+        <image name="addChannelButton" width="22" height="22"/>
+        <image name="profileDefault" width="192" height="192"/>
         <image name="smackBurger" width="40" height="40"/>
     </resources>
 </document>
