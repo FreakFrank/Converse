@@ -279,7 +279,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGv-cX-SGZ">
-                                <rect key="frame" x="337" y="20" width="28" height="28"/>
+                                <rect key="frame" x="321" y="20" width="28" height="28"/>
                                 <state key="normal" image="closeButton"/>
                                 <connections>
                                     <action selector="closeButtonPressed:" destination="NRG-g4-6ch" eventType="touchUpInside" id="M9A-Uu-o3H"/>
@@ -291,11 +291,11 @@
                             <constraint firstItem="MYI-9y-xrz" firstAttribute="trailing" secondItem="l34-8C-0qA" secondAttribute="trailing" id="1W5-c7-GPL"/>
                             <constraint firstItem="Wbo-bK-VMh" firstAttribute="centerX" secondItem="I25-sM-sYK" secondAttribute="centerX" id="CRD-f7-M6c"/>
                             <constraint firstItem="l34-8C-0qA" firstAttribute="leading" secondItem="I25-sM-sYK" secondAttribute="leadingMargin" constant="35" id="Ela-Up-Mu9"/>
+                            <constraint firstItem="dGv-cX-SGZ" firstAttribute="top" secondItem="EXr-87-eGg" secondAttribute="bottom" id="HMr-R1-Khb"/>
                             <constraint firstItem="l34-8C-0qA" firstAttribute="centerX" secondItem="I25-sM-sYK" secondAttribute="centerX" id="HmZ-Yx-IuD"/>
                             <constraint firstItem="MYI-9y-xrz" firstAttribute="leading" secondItem="l34-8C-0qA" secondAttribute="leading" id="J0m-z6-n2w"/>
                             <constraint firstItem="l34-8C-0qA" firstAttribute="top" secondItem="Wbo-bK-VMh" secondAttribute="bottom" constant="110" id="KYg-yZ-xRE"/>
-                            <constraint firstAttribute="trailing" secondItem="dGv-cX-SGZ" secondAttribute="trailing" constant="10" id="KfB-7f-K0m"/>
-                            <constraint firstItem="dGv-cX-SGZ" firstAttribute="top" secondItem="EXr-87-eGg" secondAttribute="bottom" id="Tu6-db-mnW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dGv-cX-SGZ" secondAttribute="trailing" constant="10" id="SKK-hD-JsJ"/>
                             <constraint firstItem="MYI-9y-xrz" firstAttribute="centerX" secondItem="I25-sM-sYK" secondAttribute="centerX" id="VWd-20-GtX"/>
                             <constraint firstItem="Wbo-bK-VMh" firstAttribute="top" secondItem="EXr-87-eGg" secondAttribute="bottom" constant="80" id="dTy-vs-2G3"/>
                             <constraint firstItem="MYI-9y-xrz" firstAttribute="top" secondItem="l34-8C-0qA" secondAttribute="bottom" constant="40" id="h7p-YG-VJw"/>
@@ -338,7 +338,7 @@
                                             <constraint firstAttribute="height" constant="2" id="oF4-Wu-Qf9"/>
                                         </constraints>
                                     </view>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GJs-dN-evl">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GJs-dN-evl">
                                         <rect key="frame" x="0.0" y="41" width="273" height="17"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -366,9 +366,8 @@
                                     </view>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xkn-eS-iyz">
-                                <rect key="frame" x="331" y="20" width="28" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xkn-eS-iyz">
+                                <rect key="frame" x="321" y="20" width="28" height="28"/>
                                 <state key="normal" image="closeButton"/>
                                 <connections>
                                     <action selector="cancelButtonPressed:" destination="FPt-JZ-IyM" eventType="touchUpInside" id="iFa-Vv-9mQ"/>
@@ -420,6 +419,7 @@
                         <constraints>
                             <constraint firstItem="fg9-qr-N3V" firstAttribute="width" secondItem="NUx-fA-J5f" secondAttribute="width" id="D6D-5t-M3o"/>
                             <constraint firstItem="fg9-qr-N3V" firstAttribute="centerX" secondItem="oyT-SE-ICu" secondAttribute="centerX" id="DDi-Dr-WRn"/>
+                            <constraint firstItem="Xkn-eS-iyz" firstAttribute="top" secondItem="Als-A9-4Pc" secondAttribute="bottom" id="Hq3-CP-NKW"/>
                             <constraint firstItem="WRO-Lf-Ypv" firstAttribute="top" secondItem="IJq-SQ-qcg" secondAttribute="bottom" constant="60" id="Ihc-nu-8Sr"/>
                             <constraint firstItem="Kct-Jy-d7W" firstAttribute="centerX" secondItem="oyT-SE-ICu" secondAttribute="centerX" id="Jcl-Le-TjN"/>
                             <constraint firstItem="NUx-fA-J5f" firstAttribute="top" secondItem="WRO-Lf-Ypv" secondAttribute="bottom" constant="20" id="OGX-kx-ifY"/>
@@ -434,6 +434,7 @@
                             <constraint firstItem="IJq-SQ-qcg" firstAttribute="centerX" secondItem="oyT-SE-ICu" secondAttribute="centerX" id="gGv-xC-uG9"/>
                             <constraint firstItem="dpY-15-o2X" firstAttribute="top" secondItem="Kct-Jy-d7W" secondAttribute="bottom" constant="20" id="ohJ-V9-aoI"/>
                             <constraint firstAttribute="trailingMargin" secondItem="WRO-Lf-Ypv" secondAttribute="trailing" constant="35" id="qg8-fm-pCK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xkn-eS-iyz" secondAttribute="trailing" constant="10" id="u3c-u0-gMy"/>
                             <constraint firstItem="WRO-Lf-Ypv" firstAttribute="leading" secondItem="oyT-SE-ICu" secondAttribute="leadingMargin" constant="35" id="wtI-17-mst"/>
                         </constraints>
                     </view>
