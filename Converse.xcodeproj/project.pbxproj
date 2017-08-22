@@ -18,6 +18,7 @@
 		2F5BE5141F4A076A004A4952 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BE5131F4A076A004A4952 /* CreateAccountViewController.swift */; };
 		2F6F98161F41DDD600A41D08 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F6F98151F41DDD600A41D08 /* SWRevealViewController.m */; };
 		2FA767271F472B2900B030FF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA767261F472B2900B030FF /* GradientView.swift */; };
+		2FDE78291F4CDAD700CB7F5C /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDE78281F4CDAD700CB7F5C /* UserDataService.swift */; };
 		2FFB7A411F44EDC600B92DA9 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB7A401F44EDC600B92DA9 /* ChannelViewController.swift */; };
 		2FFB7A431F44EDDA00B92DA9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB7A421F44EDDA00B92DA9 /* ChatViewController.swift */; };
 		B19B002D683223DCA2A91DA4 /* Pods_Converse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D26BAA0CF5723B9D6B36C1B /* Pods_Converse.framework */; };
@@ -39,6 +40,7 @@
 		2F6F98141F41DDD600A41D08 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		2F6F98151F41DDD600A41D08 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		2FA767261F472B2900B030FF /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		2FDE78281F4CDAD700CB7F5C /* UserDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		2FFB7A401F44EDC600B92DA9 /* ChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
 		2FFB7A421F44EDDA00B92DA9 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		9D26BAA0CF5723B9D6B36C1B /* Pods_Converse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Converse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				2F2245671F4C69000013174E /* AuthService.swift */,
+				2FDE78281F4CDAD700CB7F5C /* UserDataService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				2F0490141F478D2900FE52F4 /* LoginViewController.swift in Sources */,
 				2F22456A1F4C7BC30013174E /* RoundedButton.swift in Sources */,
 				2F4447961F3A08BD00A012EE /* AppDelegate.swift in Sources */,
+				2FDE78291F4CDAD700CB7F5C /* UserDataService.swift in Sources */,
 				2FFB7A411F44EDC600B92DA9 /* ChannelViewController.swift in Sources */,
 				2F2245681F4C69000013174E /* AuthService.swift in Sources */,
 				2FA767271F472B2900B030FF /* GradientView.swift in Sources */,

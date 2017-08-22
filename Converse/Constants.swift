@@ -15,6 +15,7 @@ typealias CompletionHandler = (_ Success: Bool) -> ()
 let BASE_URL = "https://conversea.herokuapp.com/v1/"
 let REGISTER_URL = "\(BASE_URL)account/register"
 let LOGIN_URL = "\(BASE_URL)account/login"
+let CREATE_USER_URL = "\(BASE_URL)user/add"
 
 // Segues
 
