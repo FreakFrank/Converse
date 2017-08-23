@@ -98,7 +98,7 @@ class AuthService {
         let lowerCasedEmail = email.lowercased()
         let body: [String:Any] = [
             "name": name,
-            "email": email,
+            "email": lowerCasedEmail,
             "avatarName": avatarName,
             "avatarColor": avatarColor
         ]

@@ -17,11 +17,20 @@ let REGISTER_URL = "\(BASE_URL)account/register"
 let LOGIN_URL = "\(BASE_URL)account/login"
 let CREATE_USER_URL = "\(BASE_URL)user/add"
 
+// Notifications
+
+let NOTIFY_USER_DATA_CHANGE = Notification.Name("notifyUserDataChanged")
+
+// Colors
+
+let purpleColor = #colorLiteral(red: 0.3254901961, green: 0.4215201139, blue: 0.7752227187, alpha: 0.5)
+
 // Segues
 
 let TO_LOGIN = "toLogin"
 let TO_CREATE_ACCOUNT = "toCreateAccount"
 let UNWIND_TO_CHANNEL = "toChannel"
+let TO_AVATAR_PICKER = "toAvatarPicker"
 
 // User defaults 
 
@@ -35,3 +44,9 @@ let USER_EMAIL = "userEmail"
 let HEADER = [
     "Content-Type" : "application/json; charset=utf-8"
 ]
+
+
+// Cells
+
+let AVATAR_CELL_IDENTIFIER = "avatarCell"
+let CHANNEL_CELL_IDENTFIER = "channelsCell"

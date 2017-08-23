@@ -10,9 +10,11 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var usernameTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setPlaceHolderTextColor()
         // Do any additional setup after loading the view.
     }
     
@@ -23,4 +25,10 @@ class LoginViewController: UIViewController {
     @IBAction func signUpButtonPressed(_ sender: Any) {
         performSegue(withIdentifier: TO_CREATE_ACCOUNT, sender:nil)
     }
+    
+    func setPlaceHolderTextColor(){
+        usernameTextField.attributedPlaceholder = NSAttributedString(string: "username", attributes: [NSForegroundColorAttributeName: purpleColor])
+        passwordTextField.attributedPlaceholder = NSAttributedString(string: "password", attributes: [NSForegroundColorAttributeName: purpleColor])
+    }
+    
 }
