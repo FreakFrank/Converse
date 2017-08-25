@@ -18,6 +18,13 @@ class ChatViewController: UIViewController {
         burgerButton.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
+        if AuthService.instance.isLoggedIn {
+            AuthService.instance.findUserByMail(completion: { (success) in
+                if success {
+                    NotificationCenter.default.post(name: NOTIFY_USER_DATA_CHANGE, object: nil)
+                }
+            })
+        }
     }
     
     

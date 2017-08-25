@@ -268,6 +268,9 @@
                                                 <real key="value" value="5"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="loginButtonPressed:" destination="NRG-g4-6ch" eventType="touchUpInside" id="zbD-f1-DqN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yx9-6O-wAB">
                                         <rect key="frame" x="30.5" y="45" width="212" height="29"/>
@@ -292,6 +295,11 @@
                                     <action selector="closeButtonPressed:" destination="NRG-g4-6ch" eventType="touchUpInside" id="M9A-Uu-o3H"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="he8-Av-3To">
+                                <rect key="frame" x="169" y="503" width="37" height="37"/>
+                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -307,9 +315,12 @@
                             <constraint firstItem="Wbo-bK-VMh" firstAttribute="top" secondItem="EXr-87-eGg" secondAttribute="bottom" constant="80" id="dTy-vs-2G3"/>
                             <constraint firstItem="MYI-9y-xrz" firstAttribute="top" secondItem="l34-8C-0qA" secondAttribute="bottom" constant="40" id="h7p-YG-VJw"/>
                             <constraint firstAttribute="trailingMargin" secondItem="l34-8C-0qA" secondAttribute="trailing" constant="35" id="sYu-wI-ln0"/>
+                            <constraint firstItem="he8-Av-3To" firstAttribute="top" secondItem="MYI-9y-xrz" secondAttribute="bottom" constant="60" id="uC0-nd-Wx7"/>
+                            <constraint firstItem="he8-Av-3To" firstAttribute="centerX" secondItem="I25-sM-sYK" secondAttribute="centerX" id="xgD-C5-JCT"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="loginSpinner" destination="he8-Av-3To" id="xQX-bb-Jch"/>
                         <outlet property="passwordTextField" destination="xRP-xj-FcJ" id="5FU-jK-FuO"/>
                         <outlet property="usernameTextField" destination="IFz-Xa-kbD" id="fgy-wW-OvH"/>
                         <segue destination="FPt-JZ-IyM" kind="show" identifier="toCreateAccount" id="lY4-OC-xLd"/>

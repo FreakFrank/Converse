@@ -85,6 +85,7 @@ class AuthService {
                     let json = JSON(data: data)
                     self.userEmail = json["user"].stringValue
                     self.authToken = json["token"].stringValue
+                    self.isLoggedIn = true
                     completion(true)
             }
                 else {
@@ -103,23 +104,12 @@ class AuthService {
             "avatarColor": avatarColor
         ]
         
-        let header = [
-            "Authorization": "Bearer \(AuthService.instance.authToken)",
-            "Content-Type" : "application/json; charset=utf-8"
-        ]
         
-        Alamofire.request(CREATE_USER_URL, method: .post, parameters: body, encoding: JSONEncoding.default, headers: header).responseJSON {
+        Alamofire.request(CREATE_USER_URL, method: .post, parameters: body, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON {
             (response) in
             if response.result.error == nil {
                 guard let data = response.data else {return}
-                let json = JSON(data: data)
-                let id = json["_id"].stringValue
-                let avatarColor = json["avatarColor"].stringValue
-                let avatarName = json["avatarName"].stringValue
-                let email = json["email"].stringValue
-                let name = json["name"].stringValue
-                
-                UserDataService.instance.setUserData(id: id, avatarColor: avatarColor, avatarName: avatarName, email: email, name: name)
+                self.setUserData(data: data)
                 completion(true)
             }
             else {
@@ -127,18 +117,47 @@ class AuthService {
                 debugPrint(response.result.error as Any)
             }
         }
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
     }
+    
+    func findUserByMail(completion: @escaping CompletionHandler){
+        print(userEmail)
+        Alamofire.request("\(GET_USER_BY_MAIL_URL)\(userEmail)", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in
+            if response.result.error == nil {
+                guard let data = response.data else {return}
+                self.setUserData(data: data)
+                completion(true)
+            }
+            else {
+                completion(false)
+                debugPrint(response.result.error as Any)
+            }
+        }
+    }
+    
+    func setUserData(data: Data){
+        let json = JSON(data: data)
+        let id = json["_id"].stringValue
+        let avatarColor = json["avatarColor"].stringValue
+        let avatarName = json["avatarName"].stringValue
+        let email = json["email"].stringValue
+        let name = json["name"].stringValue
+        UserDataService.instance.setUserData(id: id, avatarColor: avatarColor, avatarName: avatarName, email: email, name: name)
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 }

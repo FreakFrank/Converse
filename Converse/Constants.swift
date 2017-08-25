@@ -16,6 +16,7 @@ let BASE_URL = "https://conversea.herokuapp.com/v1/"
 let REGISTER_URL = "\(BASE_URL)account/register"
 let LOGIN_URL = "\(BASE_URL)account/login"
 let CREATE_USER_URL = "\(BASE_URL)user/add"
+let GET_USER_BY_MAIL_URL = "\(BASE_URL)user/byEmail/"
 
 // Notifications
 
@@ -44,6 +45,12 @@ let USER_EMAIL = "userEmail"
 let HEADER = [
     "Content-Type" : "application/json; charset=utf-8"
 ]
+
+let BEARER_HEADER = [
+    "Authorization": "Bearer \(AuthService.instance.authToken)",
+    "Content-Type" : "application/json; charset=utf-8"
+]
+
 
 
 // Cells

@@ -76,6 +76,7 @@ class CreateAccountViewController: UIViewController {
         let r = CGFloat(arc4random_uniform(255)) / 255
         let g = CGFloat(arc4random_uniform(255)) / 255
         let b = CGFloat(arc4random_uniform(255)) / 255
+        avatarColor = "[\(r), \(g), \(b), 1]"
         self.bgColor = UIColor(red: r, green: g, blue: b, alpha: 1)
         UIView.animate(withDuration: 0.3){
             self.profileImage.backgroundColor = self.bgColor
@@ -99,16 +100,6 @@ class CreateAccountViewController: UIViewController {
     @objc func handleTap(){
         view.endEditing(true)
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
