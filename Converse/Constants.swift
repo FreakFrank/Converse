@@ -17,6 +17,7 @@ let REGISTER_URL = "\(BASE_URL)account/register"
 let LOGIN_URL = "\(BASE_URL)account/login"
 let CREATE_USER_URL = "\(BASE_URL)user/add"
 let GET_USER_BY_MAIL_URL = "\(BASE_URL)user/byEmail/"
+let GET_CHANNELS_URL = "\(BASE_URL)channel"
 
 // Notifications
 

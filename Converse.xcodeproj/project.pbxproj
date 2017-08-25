@@ -13,6 +13,8 @@
 		2F05C0F61F4D945D00633F44 /* AvatarCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F05C0F51F4D945D00633F44 /* AvatarCellCollectionViewCell.swift */; };
 		2F2245681F4C69000013174E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2245671F4C69000013174E /* AuthService.swift */; };
 		2F22456A1F4C7BC30013174E /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2245691F4C7BC30013174E /* RoundedButton.swift */; };
+		2F2A2B331F50ED0600A81073 /* MessagesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2A2B321F50ED0600A81073 /* MessagesService.swift */; };
+		2F2A2B351F50ED1400A81073 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2A2B341F50ED1400A81073 /* Channel.swift */; };
 		2F4087A01F4DEE81006BB513 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F40879F1F4DEE81006BB513 /* CircleImage.swift */; };
 		2F4447961F3A08BD00A012EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4447951F3A08BD00A012EE /* AppDelegate.swift */; };
 		2F44479B1F3A08BD00A012EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4447991F3A08BD00A012EE /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 		2F05C0F51F4D945D00633F44 /* AvatarCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		2F2245671F4C69000013174E /* AuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		2F2245691F4C7BC30013174E /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		2F2A2B321F50ED0600A81073 /* MessagesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesService.swift; sourceTree = "<group>"; };
+		2F2A2B341F50ED1400A81073 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
 		2F40879F1F4DEE81006BB513 /* CircleImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		2F4447921F3A08BD00A012EE /* Converse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Converse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4447951F3A08BD00A012EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 			children = (
 				2F2245671F4C69000013174E /* AuthService.swift */,
 				2FDE78281F4CDAD700CB7F5C /* UserDataService.swift */,
+				2F2A2B321F50ED0600A81073 /* MessagesService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 		2FFB7A3D1F44EB8E00B92DA9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2F2A2B341F50ED1400A81073 /* Channel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -321,11 +327,13 @@
 				2F22456A1F4C7BC30013174E /* RoundedButton.swift in Sources */,
 				2F4447961F3A08BD00A012EE /* AppDelegate.swift in Sources */,
 				2F4087A01F4DEE81006BB513 /* CircleImage.swift in Sources */,
+				2F2A2B351F50ED1400A81073 /* Channel.swift in Sources */,
 				2FDE78291F4CDAD700CB7F5C /* UserDataService.swift in Sources */,
 				2F05C0F61F4D945D00633F44 /* AvatarCellCollectionViewCell.swift in Sources */,
 				2FFB7A411F44EDC600B92DA9 /* ChannelViewController.swift in Sources */,
 				2F2245681F4C69000013174E /* AuthService.swift in Sources */,
 				2F05C0F41F4D844900633F44 /* AvatarPickerViewController.swift in Sources */,
+				2F2A2B331F50ED0600A81073 /* MessagesService.swift in Sources */,
 				2FA767271F472B2900B030FF /* GradientView.swift in Sources */,
 				2F5BE5141F4A076A004A4952 /* CreateAccountViewController.swift in Sources */,
 				2FFB7A431F44EDDA00B92DA9 /* ChatViewController.swift in Sources */,
