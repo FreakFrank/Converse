@@ -22,6 +22,7 @@ let GET_CHANNELS_URL = "\(BASE_URL)channel"
 // Notifications
 
 let NOTIFY_USER_DATA_CHANGE = Notification.Name("notifyUserDataChanged")
+let NOTIFY_CHANNEL_SELECTED = Notification.Name("notifyChannelSelected")
 
 // Colors
 

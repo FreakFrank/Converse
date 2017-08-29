@@ -103,6 +103,12 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
             return 0
         }
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        MessagesService.instance.selectedChannel = MessagesService.instance.channels[indexPath.row]
+        NotificationCenter.default.post(name: NOTIFY_CHANNEL_SELECTED, object: nil)
+        self.revealViewController().revealToggle(animated: true)
+    }
     func reloadData(){
         if AuthService.instance.isLoggedIn {
             if MessagesService.instance.channels.count == 0{
@@ -115,6 +121,8 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
         }
         self.channelsTableView.reloadData()
     }
+    
+    
     
     
     

@@ -71,16 +71,26 @@
                                     <constraint firstItem="pKH-NZ-969" firstAttribute="centerY" secondItem="HFu-va-oDj" secondAttribute="centerY" id="rOU-q6-Y6B"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RjS-r1-Py5">
+                                <rect key="frame" x="124.5" y="319.5" width="126" height="29"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="24"/>
+                                <color key="textColor" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="aDB-Xa-dp0" firstAttribute="top" secondItem="pdw-eu-eNH" secondAttribute="top" id="VZS-jQ-hwp"/>
                             <constraint firstAttribute="trailing" secondItem="aDB-Xa-dp0" secondAttribute="trailing" id="YAt-Bh-lkt"/>
                             <constraint firstItem="aDB-Xa-dp0" firstAttribute="leading" secondItem="pdw-eu-eNH" secondAttribute="leading" id="mlu-FI-bxf"/>
+                            <constraint firstItem="RjS-r1-Py5" firstAttribute="centerY" secondItem="pdw-eu-eNH" secondAttribute="centerY" id="yz4-m0-iyu"/>
+                            <constraint firstItem="RjS-r1-Py5" firstAttribute="centerX" secondItem="pdw-eu-eNH" secondAttribute="centerX" id="zI8-Rq-6Z8"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="burgerButton" destination="HFu-va-oDj" id="w9o-ve-NIE"/>
+                        <outlet property="converseLabel" destination="pKH-NZ-969" id="7nf-Wk-SN2"/>
+                        <outlet property="pleaseLoginLabel" destination="RjS-r1-Py5" id="qYr-OO-oaE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KKT-g8-LBl" userLabel="First Responder" sceneMemberID="firstResponder"/>
