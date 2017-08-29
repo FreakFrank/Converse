@@ -17,13 +17,13 @@ class MessagesService {
     var channels = [Channel]()
     
     func getAllChannels(completion: @escaping CompletionHandler){
+        clearAllChannels()
         Alamofire.request(GET_CHANNELS_URL, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in
             
             if response.result.error == nil {
                 
                 guard let data = response.data else {return}
                 if let json = JSON(data: data).array{
-                    print("the count of channels is \(json.count)")
                     for item in json {
                         let name = item["name"].stringValue
                         let description = item["description"].stringValue

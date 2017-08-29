@@ -20,15 +20,14 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
         channelsTableView.dataSource = self
         self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 60
         NotificationCenter.default.addObserver(self, selector: #selector(userDataChanged), name: NOTIFY_USER_DATA_CHANGE, object: nil)
-//        SocketService.instance.updateChannels { (success) in
-//            if success {
-//                self.channelsTableView.reloadData()
-//            }
-//        }
+        SocketService.instance.updateChannels { (success) in
+            if success {
+                self.channelsTableView.reloadData()
+            }
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        reloadData()
         setupUserData()
     }
 
@@ -57,7 +56,7 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
    @objc func userDataChanged(){
-        print("got into user data changed")
+        reloadData()
         setupUserData()
     }
     
@@ -66,11 +65,11 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
             loginButton.setTitle(UserDataService.instance.name, for: .normal)
             profileImage.image = UIImage(named: UserDataService.instance.avatarName)
             profileImage.backgroundColor = UserDataService.instance.returnUIColor(components: UserDataService.instance.avatarColor)
-            SocketService.instance.updateChannels { (success) in
-                if success {
-                    self.channelsTableView.reloadData()
-                }
-            }
+//            SocketService.instance.updateChannels { (success) in
+//                if success {
+//                    self.channelsTableView.reloadData()
+//                }
+//            }
         }
         else {
             loginButton.setTitle("Login", for: .normal)
@@ -105,13 +104,16 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
         }
     }
     func reloadData(){
-        if AuthService.instance.isLoggedIn{
-        MessagesService.instance.getAllChannels(completion: { (success) in
-            if success {
-                self.channelsTableView.reloadData()
+        if AuthService.instance.isLoggedIn {
+            if MessagesService.instance.channels.count == 0{
+                MessagesService.instance.getAllChannels(completion: { (success) in
+                    if success {
+                        self.channelsTableView.reloadData()
+                    }
+                })
             }
-        })
         }
+        self.channelsTableView.reloadData()
     }
     
     
