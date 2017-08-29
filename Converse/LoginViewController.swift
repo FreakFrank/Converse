@@ -12,6 +12,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var loginSpinner: UIActivityIndicatorView!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet var wholeView: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
@@ -54,6 +55,12 @@ class LoginViewController: UIViewController {
         usernameTextField.attributedPlaceholder = NSAttributedString(string: "email", attributes: [NSForegroundColorAttributeName: purpleColor])
         passwordTextField.attributedPlaceholder = NSAttributedString(string: "password", attributes: [NSForegroundColorAttributeName: purpleColor])
         loginSpinner.isHidden = true
+        let endEditingTap = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.endEditing))
+        wholeView.addGestureRecognizer(endEditingTap)
         
+    }
+    
+    @objc func endEditing(){
+        view.endEditing(true)
     }
 }

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -114,6 +114,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iiy-QH-l2Z">
                                 <rect key="frame" x="281" y="73" width="22" height="22"/>
                                 <state key="normal" image="addChannelButton"/>
+                                <connections>
+                                    <action selector="addChannelButtonPressed:" destination="knc-qg-5A2" eventType="touchUpInside" id="knM-WM-uOI"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="h2k-pR-AhL" customClass="CircleImage" customModule="Converse" customModuleProvider="target">
                                 <rect key="frame" x="16" y="537" width="110" height="110"/>
@@ -122,21 +125,11 @@
                                     <constraint firstAttribute="width" constant="110" id="cvC-8t-WHt"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="or6-yf-29u">
-                                <rect key="frame" x="145" y="576" width="42" height="33"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
-                                <state key="normal" title="Login">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="loginButtonPressed:" destination="knc-qg-5A2" eventType="touchUpInside" id="7fa-5b-BgT"/>
-                                </connections>
-                            </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lyb-vO-n42">
                                 <rect key="frame" x="0.0" y="103" width="375" height="426"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="channelsCell" id="Fva-Q3-n9I">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="channelCell" id="Fva-Q3-n9I" customClass="ChannelCell" customModule="Converse" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Fva-Q3-n9I" id="bEc-IA-8Rt">
@@ -157,9 +150,25 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="channelName" destination="Wyv-cZ-QYR" id="wEp-zM-x6t"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="or6-yf-29u">
+                                <rect key="frame" x="136" y="537" width="50" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="lKh-b1-Mb3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButtonPressed:" destination="knc-qg-5A2" eventType="touchUpInside" id="7fa-5b-BgT"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -168,11 +177,12 @@
                             <constraint firstItem="lyb-vO-n42" firstAttribute="leading" secondItem="rSp-R6-iFf" secondAttribute="leading" id="8rZ-YB-eQl"/>
                             <constraint firstItem="Zcg-S5-Ue4" firstAttribute="top" secondItem="u4q-gq-DeG" secondAttribute="bottom" constant="13" id="Ei7-lN-qHT"/>
                             <constraint firstItem="h2k-pR-AhL" firstAttribute="leading" secondItem="rSp-R6-iFf" secondAttribute="leadingMargin" id="KwD-i4-DLI"/>
-                            <constraint firstItem="or6-yf-29u" firstAttribute="leading" secondItem="h2k-pR-AhL" secondAttribute="trailing" constant="19" id="Mvg-4u-loF"/>
+                            <constraint firstItem="or6-yf-29u" firstAttribute="leading" secondItem="h2k-pR-AhL" secondAttribute="trailing" constant="10" id="VlK-q3-Nry"/>
                             <constraint firstItem="Iiy-QH-l2Z" firstAttribute="centerY" secondItem="Mde-TZ-RWk" secondAttribute="centerY" id="cHW-WE-xLN"/>
                             <constraint firstItem="or6-yf-29u" firstAttribute="centerY" secondItem="h2k-pR-AhL" secondAttribute="centerY" id="g13-pZ-peb"/>
                             <constraint firstItem="Iiy-QH-l2Z" firstAttribute="top" secondItem="u4q-gq-DeG" secondAttribute="bottom" constant="53" id="jOa-mT-kWl"/>
                             <constraint firstItem="h2k-pR-AhL" firstAttribute="top" secondItem="lyb-vO-n42" secondAttribute="bottom" constant="8" id="kSo-12-Wbs"/>
+                            <constraint firstItem="or6-yf-29u" firstAttribute="height" secondItem="h2k-pR-AhL" secondAttribute="height" id="kdb-cZ-Kwi"/>
                             <constraint firstItem="Mde-TZ-RWk" firstAttribute="leading" secondItem="rSp-R6-iFf" secondAttribute="leadingMargin" id="oJd-n3-D8B"/>
                             <constraint firstAttribute="trailing" secondItem="Iiy-QH-l2Z" secondAttribute="trailing" constant="72" id="qgX-bh-flp"/>
                             <constraint firstAttribute="trailing" secondItem="lyb-vO-n42" secondAttribute="trailing" id="rcE-iK-Zrg"/>
@@ -181,6 +191,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="channelsTableView" destination="lyb-vO-n42" id="n7r-KU-tMb"/>
                         <outlet property="loginButton" destination="or6-yf-29u" id="G19-9f-p2L"/>
                         <outlet property="profileImage" destination="h2k-pR-AhL" id="DFF-XO-ILI"/>
                         <segue destination="NRG-g4-6ch" kind="show" identifier="toLogin" id="CVM-aO-EZs"/>
@@ -188,7 +199,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ilc-5Y-mbM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1062" y="68"/>
+            <point key="canvasLocation" x="1061.5999999999999" y="67.916041979010501"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="fPX-Mw-gR2">
@@ -221,7 +232,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="l34-8C-0qA">
-                                <rect key="frame" x="51" y="250" width="273" height="79"/>
+                                <rect key="frame" x="51" y="220" width="273" height="79"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IFz-Xa-kbD">
                                         <rect key="frame" x="0.0" y="0.0" width="273" height="21"/>
@@ -252,7 +263,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="MYI-9y-xrz">
-                                <rect key="frame" x="51" y="369" width="273" height="74"/>
+                                <rect key="frame" x="51" y="339" width="273" height="74"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9oC-dp-WBs" customClass="RoundedButton" customModule="Converse" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="273" height="40"/>
@@ -296,7 +307,7 @@
                                 </connections>
                             </button>
                             <activityIndicatorView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="he8-Av-3To">
-                                <rect key="frame" x="169" y="503" width="37" height="37"/>
+                                <rect key="frame" x="169" y="473" width="37" height="37"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
@@ -309,7 +320,7 @@
                             <constraint firstItem="dGv-cX-SGZ" firstAttribute="top" secondItem="EXr-87-eGg" secondAttribute="bottom" id="HMr-R1-Khb"/>
                             <constraint firstItem="l34-8C-0qA" firstAttribute="centerX" secondItem="I25-sM-sYK" secondAttribute="centerX" id="HmZ-Yx-IuD"/>
                             <constraint firstItem="MYI-9y-xrz" firstAttribute="leading" secondItem="l34-8C-0qA" secondAttribute="leading" id="J0m-z6-n2w"/>
-                            <constraint firstItem="l34-8C-0qA" firstAttribute="top" secondItem="Wbo-bK-VMh" secondAttribute="bottom" constant="110" id="KYg-yZ-xRE"/>
+                            <constraint firstItem="l34-8C-0qA" firstAttribute="top" secondItem="Wbo-bK-VMh" secondAttribute="bottom" constant="80" id="KYg-yZ-xRE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dGv-cX-SGZ" secondAttribute="trailing" constant="10" id="SKK-hD-JsJ"/>
                             <constraint firstItem="MYI-9y-xrz" firstAttribute="centerX" secondItem="I25-sM-sYK" secondAttribute="centerX" id="VWd-20-GtX"/>
                             <constraint firstItem="Wbo-bK-VMh" firstAttribute="top" secondItem="EXr-87-eGg" secondAttribute="bottom" constant="80" id="dTy-vs-2G3"/>
@@ -323,6 +334,7 @@
                         <outlet property="loginSpinner" destination="he8-Av-3To" id="xQX-bb-Jch"/>
                         <outlet property="passwordTextField" destination="xRP-xj-FcJ" id="5FU-jK-FuO"/>
                         <outlet property="usernameTextField" destination="IFz-Xa-kbD" id="fgy-wW-OvH"/>
+                        <outlet property="wholeView" destination="I25-sM-sYK" id="qwo-Ms-Akc"/>
                         <segue destination="FPt-JZ-IyM" kind="show" identifier="toCreateAccount" id="lY4-OC-xLd"/>
                     </connections>
                 </viewController>

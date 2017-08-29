@@ -23,7 +23,7 @@ class MessagesService {
                 
                 guard let data = response.data else {return}
                 if let json = JSON(data: data).array{
-                    
+                    print("the count of channels is \(json.count)")
                     for item in json {
                         let name = item["name"].stringValue
                         let description = item["description"].stringValue
@@ -31,9 +31,7 @@ class MessagesService {
                         let channel = Channel(name: name, description: description, id: id)
                         self.channels.append(channel)
                     }
-                    
-                    print(self.channels)
-                    completion(true)
+                completion(true)
                     
                 }
                 
@@ -44,5 +42,9 @@ class MessagesService {
             }
             
         }
+    }
+    
+    func clearAllChannels(){
+        channels.removeAll()
     }
 }
