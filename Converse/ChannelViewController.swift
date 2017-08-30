@@ -19,7 +19,9 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
         channelsTableView.delegate = self
         channelsTableView.dataSource = self
         self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 60
-        NotificationCenter.default.addObserver(self, selector: #selector(userDataChanged), name: NOTIFY_USER_DATA_CHANGE, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(ChannelViewController.userDataChanged), name: NOTIFY_USER_DATA_CHANGE, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(ChannelViewController.channelsDidLoad), name: NOTIFY_CHANNELS_LOADED, object: nil)
+        print("added the observer to the channels loaded")
         SocketService.instance.updateChannels { (success) in
             if success {
                 self.channelsTableView.reloadData()
@@ -29,6 +31,11 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     override func viewDidAppear(_ animated: Bool) {
         setupUserData()
+    }
+    
+    @objc func channelsDidLoad(){
+        print("loading channels")
+        channelsTableView.reloadData()
     }
 
     @IBAction func addChannelButtonPressed(_ sender: Any) {
@@ -118,8 +125,11 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
                     }
                 })
             }
+            else {
+                self.channelsTableView.reloadData()
+            }
         }
-        self.channelsTableView.reloadData()
+        
     }
     
     
@@ -133,4 +143,6 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
     
     
     
+
+
 }

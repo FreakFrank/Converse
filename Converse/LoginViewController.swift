@@ -46,8 +46,6 @@ class LoginViewController: UIViewController {
                 })
             }
         }
-        
-        
     }
     
     func setupView(){

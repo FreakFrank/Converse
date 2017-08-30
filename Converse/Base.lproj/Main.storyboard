@@ -441,7 +441,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fg9-qr-N3V">
-                                <rect key="frame" x="127" y="321" width="120" height="150"/>
+                                <rect key="frame" x="127" y="301" width="120" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="Bq2-tc-5D4"/>
                                 </constraints>
@@ -454,14 +454,14 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="NUx-fA-J5f" customClass="CircleImage" customModule="Converse" customModuleProvider="target">
-                                <rect key="frame" x="127.5" y="320.5" width="120" height="120"/>
+                                <rect key="frame" x="127.5" y="300.5" width="120" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="120" id="7wR-SW-Twc"/>
                                     <constraint firstAttribute="width" constant="120" id="wTI-fy-c6L"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1jK-uy-L3J">
-                                <rect key="frame" x="109" y="476" width="157" height="29"/>
+                                <rect key="frame" x="109" y="456" width="157" height="29"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="14"/>
                                 <state key="normal" title="Generate background color">
                                     <color key="titleColor" red="0.35686274509999999" green="0.62352941179999999" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -471,7 +471,7 @@
                                 </connections>
                             </button>
                             <activityIndicatorView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="6LD-Pu-vMu">
-                                <rect key="frame" x="169" y="545" width="37" height="37"/>
+                                <rect key="frame" x="169" y="525" width="37" height="37"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
@@ -485,7 +485,7 @@
                             <constraint firstItem="WRO-Lf-Ypv" firstAttribute="top" secondItem="IJq-SQ-qcg" secondAttribute="bottom" constant="60" id="Ihc-nu-8Sr"/>
                             <constraint firstItem="6LD-Pu-vMu" firstAttribute="centerX" secondItem="oyT-SE-ICu" secondAttribute="centerX" id="JEy-0U-rRj"/>
                             <constraint firstItem="Kct-Jy-d7W" firstAttribute="centerX" secondItem="oyT-SE-ICu" secondAttribute="centerX" id="Jcl-Le-TjN"/>
-                            <constraint firstItem="NUx-fA-J5f" firstAttribute="top" secondItem="WRO-Lf-Ypv" secondAttribute="bottom" constant="50" id="OGX-kx-ifY"/>
+                            <constraint firstItem="NUx-fA-J5f" firstAttribute="top" secondItem="WRO-Lf-Ypv" secondAttribute="bottom" constant="30" id="OGX-kx-ifY"/>
                             <constraint firstItem="IJq-SQ-qcg" firstAttribute="top" secondItem="Als-A9-4Pc" secondAttribute="bottom" constant="40" id="Ocg-fX-kfH"/>
                             <constraint firstItem="WRO-Lf-Ypv" firstAttribute="centerX" secondItem="oyT-SE-ICu" secondAttribute="centerX" id="SzE-I5-UFr"/>
                             <constraint firstItem="1jK-uy-L3J" firstAttribute="top" secondItem="fg9-qr-N3V" secondAttribute="bottom" constant="5" id="VPX-nI-QxE"/>
