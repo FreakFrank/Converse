@@ -8,16 +8,19 @@
 
 import UIKit
 
-class ChatViewController: UIViewController {
+class ChatViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var burgerButton: UIButton!
-    @IBOutlet weak var pleaseLoginLabel: UILabel!
     @IBOutlet weak var converseLabel: UILabel!
     @IBOutlet weak var messageTextField: UITextField!
-    
+    @IBOutlet weak var messagesTabelView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        messagesTabelView.delegate = self
+        messagesTabelView.dataSource = self
+        messagesTabelView.estimatedRowHeight = 80
+        messagesTabelView.rowHeight = UITableViewAutomaticDimension
         view.bindToKeyboard()
         setupView()
         burgerButton.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
@@ -39,11 +42,9 @@ class ChatViewController: UIViewController {
     @objc func userDataDidChange(){
         if AuthService.instance.isLoggedIn {
             onLoginGetMessages()
-            pleaseLoginLabel.isHidden = true
         }
         else {
-            pleaseLoginLabel.isHidden = false
-            converseLabel.text = "Converse"
+            converseLabel.text = "Please Login"
         }
     }
     
@@ -74,7 +75,9 @@ class ChatViewController: UIViewController {
     func getMessages(){
         guard let channelId = MessagesService.instance.selectedChannel?.id else {return}
         MessagesService.instance.getAllMessagesForSpecificChannel(channelId: channelId) { (success) in
-            
+            if success {
+                self.messagesTabelView.reloadData()
+            }
         }
     }
     @IBAction func sendButtonPressed(_ sender: Any) {
@@ -94,11 +97,27 @@ class ChatViewController: UIViewController {
     func setupView(){
         let tap = UITapGestureRecognizer(target: self, action: #selector(ChatViewController.endEditing))
         view.addGestureRecognizer(tap)
+        
     }
     
     @objc func endEditing(){
         view.endEditing(true)
     }
     
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "messageCell", for: indexPath) as? MessageCell {
+            let message = MessagesService.instance.messages[indexPath.row]
+            cell.configureCell(message: message)
+            return cell
+        }
+        return UITableViewCell()
+    }
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return MessagesService.instance.messages.count
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
     
 }

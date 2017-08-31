@@ -31,6 +31,7 @@
 		2F7E2CB91F507D4B00C9AC94 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F7E2CB71F507D4B00C9AC94 /* ProfileViewController.xib */; };
 		2FA767271F472B2900B030FF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA767261F472B2900B030FF /* GradientView.swift */; };
 		2FDE78291F4CDAD700CB7F5C /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDE78281F4CDAD700CB7F5C /* UserDataService.swift */; };
+		2FDED7451F58687700C7AD29 /* MessageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDED7441F58687700C7AD29 /* MessageCellTableViewCell.swift */; };
 		2FFAECDA1F58319D00589D68 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFAECD91F58319D00589D68 /* KeyboardBoundView.swift */; };
 		2FFB7A411F44EDC600B92DA9 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB7A401F44EDC600B92DA9 /* ChannelViewController.swift */; };
 		2FFB7A431F44EDDA00B92DA9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB7A421F44EDDA00B92DA9 /* ChatViewController.swift */; };
@@ -66,6 +67,7 @@
 		2F7E2CB71F507D4B00C9AC94 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		2FA767261F472B2900B030FF /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		2FDE78281F4CDAD700CB7F5C /* UserDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		2FDED7441F58687700C7AD29 /* MessageCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCellTableViewCell.swift; sourceTree = "<group>"; };
 		2FFAECD91F58319D00589D68 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
 		2FFB7A401F44EDC600B92DA9 /* ChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
 		2FFB7A421F44EDDA00B92DA9 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				2F05C0F51F4D945D00633F44 /* AvatarCellCollectionViewCell.swift */,
 				2F40879F1F4DEE81006BB513 /* CircleImage.swift */,
 				2F220FA91F51A7B800DA4831 /* ChannelCell.swift */,
+				2FDED7441F58687700C7AD29 /* MessageCellTableViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				2F5BE5141F4A076A004A4952 /* CreateAccountViewController.swift in Sources */,
 				2FFB7A431F44EDDA00B92DA9 /* ChatViewController.swift in Sources */,
 				2F7E2CB81F507D4B00C9AC94 /* ProfileViewController.swift in Sources */,
+				2FDED7451F58687700C7AD29 /* MessageCellTableViewCell.swift in Sources */,
 				2F6F98161F41DDD600A41D08 /* SWRevealViewController.m in Sources */,
 				2F0490101F47587C00FE52F4 /* Constants.swift in Sources */,
 			);
