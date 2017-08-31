@@ -13,10 +13,13 @@ class ChatViewController: UIViewController {
     @IBOutlet weak var burgerButton: UIButton!
     @IBOutlet weak var pleaseLoginLabel: UILabel!
     @IBOutlet weak var converseLabel: UILabel!
+    @IBOutlet weak var messageTextField: UITextField!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.bindToKeyboard()
+        setupView()
         burgerButton.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
@@ -34,11 +37,13 @@ class ChatViewController: UIViewController {
     }
     
     @objc func userDataDidChange(){
-        if pleaseLoginLabel.isHidden {
-            pleaseLoginLabel.isHidden = false
+        if AuthService.instance.isLoggedIn {
+            onLoginGetMessages()
+            pleaseLoginLabel.isHidden = true
         }
         else {
-            pleaseLoginLabel.isHidden = true
+            pleaseLoginLabel.isHidden = false
+            converseLabel.text = "Converse"
         }
     }
     
@@ -72,8 +77,28 @@ class ChatViewController: UIViewController {
             
         }
     }
+    @IBAction func sendButtonPressed(_ sender: Any) {
+        
+        guard let message = messageTextField.text else {return}
+        guard let channelId = MessagesService.instance.selectedChannel?.id else {return}
+        
+        SocketService.instance.addMessage(messageBody: message, userId: UserDataService.instance.id, channelId: channelId) { (success) in
+            if success {
+                self.messageTextField.text = ""
+                self.messageTextField.resignFirstResponder()
+            }
+        }
+        
+    }
     
+    func setupView(){
+        let tap = UITapGestureRecognizer(target: self, action: #selector(ChatViewController.endEditing))
+        view.addGestureRecognizer(tap)
+    }
     
+    @objc func endEditing(){
+        view.endEditing(true)
+    }
     
     
 }
