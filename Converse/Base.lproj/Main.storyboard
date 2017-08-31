@@ -79,8 +79,11 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="messageEditingChanged:" destination="br7-uH-203" eventType="editingChanged" id="Mpu-as-Eu7"/>
+                                </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYf-v1-EHM">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYf-v1-EHM">
                                 <rect key="frame" x="340" y="632" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="egl-Xh-D2G"/>
@@ -172,6 +175,7 @@
                         <outlet property="converseLabel" destination="pKH-NZ-969" id="7nf-Wk-SN2"/>
                         <outlet property="messageTextField" destination="X09-Nw-E6K" id="K8n-MB-xIT"/>
                         <outlet property="messagesTabelView" destination="VTv-zr-ytp" id="pOO-Tb-XCv"/>
+                        <outlet property="sendButton" destination="cYf-v1-EHM" id="i85-Bz-Bor"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KKT-g8-LBl" userLabel="First Responder" sceneMemberID="firstResponder"/>

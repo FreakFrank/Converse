@@ -15,6 +15,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet weak var messageTextField: UITextField!
     @IBOutlet weak var messagesTabelView: UITableView!
     
+    @IBOutlet weak var sendButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         messagesTabelView.delegate = self
@@ -45,6 +46,14 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
                 MessagesService.instance.getAllChannels(completion: { (success) in
                 })
             })
+        }
+    }
+    @IBAction func messageEditingChanged(_ sender: Any) {
+        if messageTextField.text == "" {
+            self.sendButton.isHidden = true
+        }
+        else {
+            self.sendButton.isHidden = false
         }
     }
     
