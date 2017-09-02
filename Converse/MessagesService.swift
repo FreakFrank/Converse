@@ -16,10 +16,10 @@ class MessagesService {
     
     var channels = [Channel]()
     var messages = [Message]()
+    var unreadChannels = [String]()
     var selectedChannel: Channel?
     
     func getAllChannels(completion: @escaping CompletionHandler){
-        print("getting all channels")
         Alamofire.request(GET_CHANNELS_URL, method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in
             
             if response.result.error == nil {
@@ -35,8 +35,6 @@ class MessagesService {
                     }
                     NotificationCenter.default.post(name: NOTIFY_CHANNELS_LOADED, object: nil)
                     completion(true)
-                    print("The count of channels is \(self.channels.count)")
-                    
                 }
                 
             }
@@ -48,7 +46,6 @@ class MessagesService {
     }
     
     func getAllMessagesForSpecificChannel(channelId: String, completion: @escaping CompletionHandler){
-        print("channel id is \(channelId)")
         Alamofire.request("\(GET_MESSAGES_URL)\(channelId)", method: .get, parameters: nil, encoding: JSONEncoding.default, headers: BEARER_HEADER).responseJSON { (response) in
             
             if response.result.error == nil {

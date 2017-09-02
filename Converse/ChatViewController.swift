@@ -30,13 +30,12 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
         NotificationCenter.default.addObserver(self, selector: #selector(ChatViewController.userDataDidChange), name: NOTIFY_USER_DATA_CHANGE, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(ChatViewController.channelSelected), name: NOTIFY_CHANNEL_SELECTED, object: nil)
-        SocketService.instance.getMessage { (success) in
-            if success {
+        SocketService.instance.getMessage { (newMessage) in
+            if newMessage.channelId == MessagesService.instance.selectedChannel?.id && AuthService.instance.isLoggedIn {
+                MessagesService.instance.messages.append(newMessage)
                 self.messagesTabelView.reloadData()
-                if MessagesService.instance.messages.count > 0 {
-                    let endIndex = IndexPath(row: MessagesService.instance.messages.count - 1, section: 0)
-                    self.messagesTabelView.scrollToRow(at: endIndex, at: .bottom, animated: false)
-                }
+                let endIndex = IndexPath(row: MessagesService.instance.messages.count - 1, section: 0)
+                self.messagesTabelView.scrollToRow(at: endIndex, at: .bottom, animated: false)
             }
         }
         

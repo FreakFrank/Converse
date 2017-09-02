@@ -32,7 +32,6 @@ class SocketService: NSObject {
     }
     
     func updateChannels(completion: @escaping CompletionHandler){
-        print("got into the update channels")
         socket.on("channelCreated") { (dataArray, ack) in
             guard let channelName = dataArray[0] as? String else {return}
             guard let channelDescription = dataArray[1] as? String else {return}
@@ -51,7 +50,7 @@ class SocketService: NSObject {
         
     }
     
-    func getMessage(completion: @escaping CompletionHandler){
+    func getMessage(completion: @escaping (_ newMessage: Message)->Void){
         
         socket.on("messageCreated") { (dataArray, ack) in
             guard let message = dataArray[0] as? String else {return}
@@ -61,17 +60,10 @@ class SocketService: NSObject {
             guard let userAvatarColor = dataArray[5] as? String else {return}
             guard let id = dataArray[6] as? String else {return}
             guard let timeStamp = dataArray[7] as? String else {return}
-            
-            if channelId == MessagesService.instance.selectedChannel?.id && AuthService.instance.isLoggedIn {
                 let newMessage = Message(id: id, body: message, userId: "", channelId: channelId, userName: userName, userAvatar: userAvatar, userAvatarColor: userAvatarColor, timeStamp: timeStamp)
-                MessagesService.instance.messages.append(newMessage)
-                completion(true)
-            }
-            else {
-                completion(false)
-            }
-        }
+                completion(newMessage)
     
+        }
     }
     
     func getTypingUsers(_ completionHandler: @escaping (_ typingUsers: [String: String])->Void){
@@ -97,3 +89,4 @@ class SocketService: NSObject {
     
     
 }
+

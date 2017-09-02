@@ -21,9 +21,14 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
         self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 60
         NotificationCenter.default.addObserver(self, selector: #selector(ChannelViewController.userDataChanged), name: NOTIFY_USER_DATA_CHANGE, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(ChannelViewController.channelsDidLoad), name: NOTIFY_CHANNELS_LOADED, object: nil)
-        print("added the observer to the channels loaded")
         SocketService.instance.updateChannels { (success) in
             if success {
+                self.channelsTableView.reloadData()
+            }
+        }
+        SocketService.instance.getMessage { (newMessage) in
+            if newMessage.channelId != MessagesService.instance.selectedChannel?.id && AuthService.instance.isLoggedIn{
+                MessagesService.instance.unreadChannels.append(newMessage.channelId)
                 self.channelsTableView.reloadData()
             }
         }
@@ -34,7 +39,6 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     @objc func channelsDidLoad(){
-        print("loading channels")
         channelsTableView.reloadData()
     }
 
@@ -72,11 +76,6 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
             loginButton.setTitle(UserDataService.instance.name, for: .normal)
             profileImage.image = UIImage(named: UserDataService.instance.avatarName)
             profileImage.backgroundColor = UserDataService.instance.returnUIColor(components: UserDataService.instance.avatarColor)
-//            SocketService.instance.updateChannels { (success) in
-//                if success {
-//                    self.channelsTableView.reloadData()
-//                }
-//            }
         }
         else {
             loginButton.setTitle("Login", for: .normal)
@@ -114,7 +113,14 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         MessagesService.instance.selectedChannel = MessagesService.instance.channels[indexPath.row]
         NotificationCenter.default.post(name: NOTIFY_CHANNEL_SELECTED, object: nil)
+        if MessagesService.instance.unreadChannels.count > 0 {
+            MessagesService.instance.unreadChannels = MessagesService.instance.unreadChannels.filter{$0 != MessagesService.instance.selectedChannel?.id}
+        }
+        let index = IndexPath(row: indexPath.row, section: 0)
+        tableView.reloadRows(at: [index], with: .none)
+        tableView.selectRow(at: index, animated: false, scrollPosition: .none)
         self.revealViewController().revealToggle(animated: true)
+        
     }
     func reloadData(){
         if AuthService.instance.isLoggedIn {

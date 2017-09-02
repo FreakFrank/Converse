@@ -35,13 +35,6 @@ class AvatarPickerViewController: UIViewController, UICollectionViewDelegate, UI
         else {
             avatarType = .light
         }
-        
-//        if avatarType == .dark {
-//            avatarType = .light
-//        }
-//        else {
-//            avatarType = .dark
-//        }
         avatarCollectionView.reloadData()
     }
     
