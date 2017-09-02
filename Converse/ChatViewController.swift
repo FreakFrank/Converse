@@ -130,7 +130,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBAction func sendButtonPressed(_ sender: Any) {
         guard let channelId = MessagesService.instance.selectedChannel?.id else {return}
         guard let message = messageTextField.text else {return}
-        
+        self.sendButton.isHidden = true
         SocketService.instance.addMessage(messageBody: message, userId: UserDataService.instance.id, channelId: channelId) { (success) in
             if success {
                 SocketService.instance.socket.emit("stopType", UserDataService.instance.name, channelId)
