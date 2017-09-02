@@ -14,6 +14,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet weak var converseLabel: UILabel!
     @IBOutlet weak var messageTextField: UITextField!
     @IBOutlet weak var messagesTabelView: UITableView!
+    @IBOutlet weak var usersTypingLabel: UILabel!
     
     @IBOutlet weak var sendButton: UIButton!
     override func viewDidLoad() {
@@ -38,6 +39,30 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
                 }
             }
         }
+        
+        SocketService.instance.getTypingUsers { (usersTyping) in
+            guard let channelId = MessagesService.instance.selectedChannel?.id else {return}
+            var names = ""
+            var numberOfUsers = 0
+            for (userTyping, channel) in usersTyping {
+                if userTyping != UserDataService.instance.name && channelId == channel {
+                    if names == "" {
+                        names = "\(userTyping)"
+                    }
+                    else {
+                        names = names + " ,\(userTyping)"
+                    }
+                    numberOfUsers += 1
+                }
+            }
+            
+            switch(numberOfUsers){
+            case 0 : self.usersTypingLabel.text = ""
+            case 1 : self.usersTypingLabel.text = names + " is typing now..."
+            default: self.usersTypingLabel.text = names + " are typing now..."
+
+            }
+        }
         if AuthService.instance.isLoggedIn {
             AuthService.instance.findUserByMail(completion: { (success) in
                 if success {
@@ -49,10 +74,14 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
     }
     @IBAction func messageEditingChanged(_ sender: Any) {
+        guard let channelId = MessagesService.instance.selectedChannel?.id else {return}
         if messageTextField.text == "" {
             self.sendButton.isHidden = true
+            SocketService.instance.socket.emit("stopType", UserDataService.instance.name, channelId)
         }
         else {
+            SocketService.instance.socket.emit("startType", UserDataService.instance.name, channelId)
+
             self.sendButton.isHidden = false
         }
     }
@@ -100,12 +129,12 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
     }
     @IBAction func sendButtonPressed(_ sender: Any) {
-        
-        guard let message = messageTextField.text else {return}
         guard let channelId = MessagesService.instance.selectedChannel?.id else {return}
+        guard let message = messageTextField.text else {return}
         
         SocketService.instance.addMessage(messageBody: message, userId: UserDataService.instance.id, channelId: channelId) { (success) in
             if success {
+                SocketService.instance.socket.emit("stopType", UserDataService.instance.name, channelId)
                 self.messageTextField.text = ""
                 self.messageTextField.resignFirstResponder()
             }

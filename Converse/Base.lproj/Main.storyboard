@@ -153,17 +153,26 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nYv-XE-7ub">
+                                <rect key="frame" x="5" y="605" width="370" height="0.0"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="VTv-zr-ytp" firstAttribute="top" secondItem="aDB-Xa-dp0" secondAttribute="bottom" id="Ccl-HM-5Tg"/>
                             <constraint firstAttribute="trailing" secondItem="cYf-v1-EHM" secondAttribute="trailing" constant="5" id="Lbv-3O-RoP"/>
                             <constraint firstAttribute="trailing" secondItem="X09-Nw-E6K" secondAttribute="trailing" constant="40" id="Q2p-aJ-EJJ"/>
+                            <constraint firstItem="nYv-XE-7ub" firstAttribute="leading" secondItem="pdw-eu-eNH" secondAttribute="leading" constant="5" id="Uki-qK-vbo"/>
                             <constraint firstItem="aDB-Xa-dp0" firstAttribute="top" secondItem="pdw-eu-eNH" secondAttribute="top" id="VZS-jQ-hwp"/>
                             <constraint firstAttribute="trailing" secondItem="VTv-zr-ytp" secondAttribute="trailing" id="W86-r0-IGe"/>
                             <constraint firstItem="X09-Nw-E6K" firstAttribute="leading" secondItem="pdw-eu-eNH" secondAttribute="leading" id="WJk-yS-2Re"/>
                             <constraint firstItem="X09-Nw-E6K" firstAttribute="top" secondItem="VTv-zr-ytp" secondAttribute="bottom" constant="30" id="WoP-lR-G4X"/>
                             <constraint firstAttribute="trailing" secondItem="aDB-Xa-dp0" secondAttribute="trailing" id="YAt-Bh-lkt"/>
+                            <constraint firstItem="nYv-XE-7ub" firstAttribute="top" secondItem="VTv-zr-ytp" secondAttribute="bottom" constant="8" id="Z0t-EA-eAR"/>
+                            <constraint firstAttribute="trailing" secondItem="nYv-XE-7ub" secondAttribute="trailing" id="ZSd-tB-T2k"/>
                             <constraint firstItem="VTv-zr-ytp" firstAttribute="leading" secondItem="pdw-eu-eNH" secondAttribute="leading" id="e5o-6j-qxA"/>
                             <constraint firstItem="fqX-g6-Kr3" firstAttribute="top" secondItem="X09-Nw-E6K" secondAttribute="bottom" id="gYj-he-UVK"/>
                             <constraint firstItem="aDB-Xa-dp0" firstAttribute="leading" secondItem="pdw-eu-eNH" secondAttribute="leading" id="mlu-FI-bxf"/>
@@ -176,6 +185,7 @@
                         <outlet property="messageTextField" destination="X09-Nw-E6K" id="K8n-MB-xIT"/>
                         <outlet property="messagesTabelView" destination="VTv-zr-ytp" id="pOO-Tb-XCv"/>
                         <outlet property="sendButton" destination="cYf-v1-EHM" id="i85-Bz-Bor"/>
+                        <outlet property="usersTypingLabel" destination="nYv-XE-7ub" id="f5D-t5-Kxz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KKT-g8-LBl" userLabel="First Responder" sceneMemberID="firstResponder"/>
