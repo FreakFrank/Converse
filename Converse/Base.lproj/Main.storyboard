@@ -205,19 +205,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Converse" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zcg-S5-Ue4">
-                                <rect key="frame" x="16" y="33" width="74.5" height="24.5"/>
+                                <rect key="frame" x="16" y="40" width="74.5" height="22"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="18"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHANNELS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mde-TZ-RWk">
-                                <rect key="frame" x="16" y="77.5" width="57" height="14.5"/>
+                                <rect key="frame" x="16" y="82" width="57" height="14.5"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="12"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iiy-QH-l2Z">
-                                <rect key="frame" x="281" y="73" width="22" height="22"/>
+                                <rect key="frame" x="281" y="73" width="22" height="31"/>
                                 <state key="normal" image="addChannelButton"/>
                                 <connections>
                                     <action selector="addChannelButtonPressed:" destination="knc-qg-5A2" eventType="touchUpInside" id="knM-WM-uOI"/>
@@ -231,7 +231,7 @@
                                 </constraints>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lyb-vO-n42">
-                                <rect key="frame" x="0.0" y="103" width="375" height="426"/>
+                                <rect key="frame" x="0.0" y="112" width="375" height="417"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="channelCell" id="Fva-Q3-n9I" customClass="ChannelCell" customModule="Converse" customModuleProvider="target">
@@ -280,7 +280,7 @@
                             <constraint firstItem="Mde-TZ-RWk" firstAttribute="top" secondItem="Zcg-S5-Ue4" secondAttribute="bottom" constant="20" id="0z9-6u-Os2"/>
                             <constraint firstItem="lyb-vO-n42" firstAttribute="top" secondItem="Iiy-QH-l2Z" secondAttribute="bottom" constant="8" id="4wr-ZA-LzA"/>
                             <constraint firstItem="lyb-vO-n42" firstAttribute="leading" secondItem="rSp-R6-iFf" secondAttribute="leading" id="8rZ-YB-eQl"/>
-                            <constraint firstItem="Zcg-S5-Ue4" firstAttribute="top" secondItem="u4q-gq-DeG" secondAttribute="bottom" constant="13" id="Ei7-lN-qHT"/>
+                            <constraint firstItem="Zcg-S5-Ue4" firstAttribute="top" secondItem="u4q-gq-DeG" secondAttribute="bottom" constant="20" id="Ei7-lN-qHT"/>
                             <constraint firstItem="h2k-pR-AhL" firstAttribute="leading" secondItem="rSp-R6-iFf" secondAttribute="leadingMargin" id="KwD-i4-DLI"/>
                             <constraint firstItem="or6-yf-29u" firstAttribute="leading" secondItem="h2k-pR-AhL" secondAttribute="trailing" constant="10" id="VlK-q3-Nry"/>
                             <constraint firstItem="Iiy-QH-l2Z" firstAttribute="centerY" secondItem="Mde-TZ-RWk" secondAttribute="centerY" id="cHW-WE-xLN"/>
@@ -536,7 +536,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fg9-qr-N3V">
-                                <rect key="frame" x="127" y="301" width="120" height="150"/>
+                                <rect key="frame" x="127.5" y="301" width="120" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="Bq2-tc-5D4"/>
                                 </constraints>
