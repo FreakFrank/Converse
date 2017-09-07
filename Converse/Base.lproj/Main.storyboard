@@ -566,7 +566,7 @@
                                 </connections>
                             </button>
                             <activityIndicatorView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="6LD-Pu-vMu">
-                                <rect key="frame" x="169" y="525" width="37" height="37"/>
+                                <rect key="frame" x="169" y="505" width="37" height="37"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                             </activityIndicatorView>
@@ -575,7 +575,7 @@
                         <constraints>
                             <constraint firstItem="fg9-qr-N3V" firstAttribute="width" secondItem="NUx-fA-J5f" secondAttribute="width" id="D6D-5t-M3o"/>
                             <constraint firstItem="fg9-qr-N3V" firstAttribute="centerX" secondItem="oyT-SE-ICu" secondAttribute="centerX" id="DDi-Dr-WRn"/>
-                            <constraint firstItem="6LD-Pu-vMu" firstAttribute="top" secondItem="1jK-uy-L3J" secondAttribute="bottom" constant="40" id="Den-VV-sKA"/>
+                            <constraint firstItem="6LD-Pu-vMu" firstAttribute="top" secondItem="1jK-uy-L3J" secondAttribute="bottom" constant="20" id="Den-VV-sKA"/>
                             <constraint firstItem="Xkn-eS-iyz" firstAttribute="top" secondItem="Als-A9-4Pc" secondAttribute="bottom" id="Hq3-CP-NKW"/>
                             <constraint firstItem="WRO-Lf-Ypv" firstAttribute="top" secondItem="IJq-SQ-qcg" secondAttribute="bottom" constant="60" id="Ihc-nu-8Sr"/>
                             <constraint firstItem="6LD-Pu-vMu" firstAttribute="centerX" secondItem="oyT-SE-ICu" secondAttribute="centerX" id="JEy-0U-rRj"/>

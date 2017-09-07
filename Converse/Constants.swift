@@ -19,6 +19,7 @@ let CREATE_USER_URL = "\(BASE_URL)user/add"
 let GET_USER_BY_MAIL_URL = "\(BASE_URL)user/byEmail/"
 let GET_CHANNELS_URL = "\(BASE_URL)channel"
 let GET_MESSAGES_URL = "\(BASE_URL)message/byChannel/"
+let EDIT_USERNAME_URL = "\(BASE_URL)user/"
 
 
 // Notifications

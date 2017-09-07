@@ -18,6 +18,7 @@ class ProfileViewController: UIViewController {
         super.viewDidLoad()
         setUpUserData()
         setupTapRecognizer()
+        NotificationCenter.default.addObserver(self, selector: #selector(ProfileViewController.usernameDidChange), name: NOTIFY_USER_DATA_CHANGE, object: nil)
     }
     @IBAction func closeButtonPressed(_ sender: Any) {
         
@@ -30,6 +31,17 @@ class ProfileViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
+    @objc func usernameDidChange(){
+        setUpUserData()
+    }
+    
+    @IBAction func editUsernamePressed(_ sender: Any) {
+        
+        let editUsername = EditUsernameViewController()
+        editUsername.modalPresentationStyle = .custom
+        present(editUsername, animated: true, completion: nil)
+        
+    }
     func setUpUserData(){
         if AuthService.instance.isLoggedIn {
             self.profileImage.image = UIImage(named: UserDataService.instance.avatarName)
