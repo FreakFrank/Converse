@@ -1,0 +1,141 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Pods_Converse.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Converse-umbrella.h",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/Pods/Target Support Files/Pods-Converse/Pods-Converse-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Converse-Swift.h",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Pods_Converse.framework/Headers/Pods_Converse-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Pods_Converse.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/build/Pods.build/Debug-iphoneos/Pods-Converse.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Socket.IO-Client-Swift-umbrella.h",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/Pods/Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SocketIO-Swift.h",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/build/Pods.build/Debug-iphoneos/Socket.IO-Client-Swift.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "StarscreamSocketIO-Swift.h",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "StarscreamSocketIO-umbrella.h",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/Pods/Target Support Files/StarscreamSocketIO/StarscreamSocketIO-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/build/Pods.build/Debug-iphoneos/StarscreamSocketIO.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/kareemismail/XCodeProjects/Converse/build/Pods.build/Debug-iphoneos/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

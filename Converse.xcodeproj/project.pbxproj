@@ -14,6 +14,9 @@
 		2F05C0F61F4D945D00633F44 /* AvatarCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F05C0F51F4D945D00633F44 /* AvatarCellCollectionViewCell.swift */; };
 		2F1624FB1F616039001E77D0 /* EditUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1624F91F616039001E77D0 /* EditUsernameViewController.swift */; };
 		2F1624FC1F616039001E77D0 /* EditUsernameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F1624FA1F616039001E77D0 /* EditUsernameViewController.xib */; };
+		2F1C460820FDE83E00C61997 /* AboutFMCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C460720FDE83E00C61997 /* AboutFMCell.swift */; };
+		2F1C460A20FDF7C700C61997 /* AboutConverseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1C460920FDF7C700C61997 /* AboutConverseViewController.swift */; };
+		2F1C460C20FE20B600C61997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1C460B20FE20B500C61997 /* Assets.xcassets */; };
 		2F220FAA1F51A7B800DA4831 /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F220FA91F51A7B800DA4831 /* ChannelCell.swift */; };
 		2F220FAD1F51B76600DA4831 /* AddChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F220FAB1F51B76600DA4831 /* AddChannelViewController.swift */; };
 		2F220FAE1F51B76600DA4831 /* AddChannelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F220FAC1F51B76600DA4831 /* AddChannelViewController.xib */; };
@@ -24,7 +27,6 @@
 		2F4087A01F4DEE81006BB513 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F40879F1F4DEE81006BB513 /* CircleImage.swift */; };
 		2F4447961F3A08BD00A012EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4447951F3A08BD00A012EE /* AppDelegate.swift */; };
 		2F44479B1F3A08BD00A012EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4447991F3A08BD00A012EE /* Main.storyboard */; };
-		2F44479D1F3A08BD00A012EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F44479C1F3A08BD00A012EE /* Assets.xcassets */; };
 		2F4447A01F3A08BD00A012EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F44479E1F3A08BD00A012EE /* LaunchScreen.storyboard */; };
 		2F5BE5141F4A076A004A4952 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5BE5131F4A076A004A4952 /* CreateAccountViewController.swift */; };
 		2F6DB27F1F55D27700703FBF /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6DB27E1F55D27700703FBF /* Message.swift */; };
@@ -34,6 +36,10 @@
 		2FA767271F472B2900B030FF /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA767261F472B2900B030FF /* GradientView.swift */; };
 		2FDE78291F4CDAD700CB7F5C /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDE78281F4CDAD700CB7F5C /* UserDataService.swift */; };
 		2FDED7451F58687700C7AD29 /* MessageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDED7441F58687700C7AD29 /* MessageCellTableViewCell.swift */; };
+		2FF1573820FCD46F00BC7DCA /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1573720FCD46F00BC7DCA /* AboutUsViewController.swift */; };
+		2FF1573E20FCE63900BC7DCA /* TermsAndConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1573D20FCE63900BC7DCA /* TermsAndConditionsViewController.swift */; };
+		2FF2595720FC9A3700B4BBF3 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2595620FC9A3700B4BBF3 /* SettingViewController.swift */; };
+		2FF2595920FCA26900B4BBF3 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF2595820FCA26900B4BBF3 /* SettingsCell.swift */; };
 		2FFAECDA1F58319D00589D68 /* KeyboardBoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFAECD91F58319D00589D68 /* KeyboardBoundView.swift */; };
 		2FFB7A411F44EDC600B92DA9 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB7A401F44EDC600B92DA9 /* ChannelViewController.swift */; };
 		2FFB7A431F44EDDA00B92DA9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB7A421F44EDDA00B92DA9 /* ChatViewController.swift */; };
@@ -48,6 +54,9 @@
 		2F05C0F51F4D945D00633F44 /* AvatarCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvatarCellCollectionViewCell.swift; sourceTree = "<group>"; };
 		2F1624F91F616039001E77D0 /* EditUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditUsernameViewController.swift; sourceTree = "<group>"; };
 		2F1624FA1F616039001E77D0 /* EditUsernameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditUsernameViewController.xib; sourceTree = "<group>"; };
+		2F1C460720FDE83E00C61997 /* AboutFMCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutFMCell.swift; sourceTree = "<group>"; };
+		2F1C460920FDF7C700C61997 /* AboutConverseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutConverseViewController.swift; sourceTree = "<group>"; };
+		2F1C460B20FE20B500C61997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F220FA91F51A7B800DA4831 /* ChannelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		2F220FAB1F51B76600DA4831 /* AddChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddChannelViewController.swift; sourceTree = "<group>"; };
 		2F220FAC1F51B76600DA4831 /* AddChannelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddChannelViewController.xib; sourceTree = "<group>"; };
@@ -59,7 +68,6 @@
 		2F4447921F3A08BD00A012EE /* Converse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Converse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4447951F3A08BD00A012EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F44479A1F3A08BD00A012EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2F44479C1F3A08BD00A012EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F44479F1F3A08BD00A012EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F4447A11F3A08BD00A012EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F5BE5131F4A076A004A4952 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +80,10 @@
 		2FA767261F472B2900B030FF /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		2FDE78281F4CDAD700CB7F5C /* UserDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		2FDED7441F58687700C7AD29 /* MessageCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCellTableViewCell.swift; sourceTree = "<group>"; };
+		2FF1573720FCD46F00BC7DCA /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		2FF1573D20FCE63900BC7DCA /* TermsAndConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsViewController.swift; sourceTree = "<group>"; };
+		2FF2595620FC9A3700B4BBF3 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		2FF2595820FCA26900B4BBF3 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 		2FFAECD91F58319D00589D68 /* KeyboardBoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardBoundView.swift; sourceTree = "<group>"; };
 		2FFB7A401F44EDC600B92DA9 /* ChannelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
 		2FFB7A421F44EDDA00B92DA9 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -148,8 +160,8 @@
 				2FFB7A3D1F44EB8E00B92DA9 /* Model */,
 				2F6F98121F41DC6E00A41D08 /* Supporting Files */,
 				2F4447951F3A08BD00A012EE /* AppDelegate.swift */,
+				2F1C460B20FE20B500C61997 /* Assets.xcassets */,
 				2F4447991F3A08BD00A012EE /* Main.storyboard */,
-				2F44479C1F3A08BD00A012EE /* Assets.xcassets */,
 				2F44479E1F3A08BD00A012EE /* LaunchScreen.storyboard */,
 				2F4447A11F3A08BD00A012EE /* Info.plist */,
 			);
@@ -196,6 +208,8 @@
 				2F40879F1F4DEE81006BB513 /* CircleImage.swift */,
 				2F220FA91F51A7B800DA4831 /* ChannelCell.swift */,
 				2FDED7441F58687700C7AD29 /* MessageCellTableViewCell.swift */,
+				2FF2595820FCA26900B4BBF3 /* SettingsCell.swift */,
+				2F1C460720FDE83E00C61997 /* AboutFMCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -211,6 +225,10 @@
 				2F7E2CB61F507D4B00C9AC94 /* ProfileViewController.swift */,
 				2F220FAB1F51B76600DA4831 /* AddChannelViewController.swift */,
 				2F1624F91F616039001E77D0 /* EditUsernameViewController.swift */,
+				2FF2595620FC9A3700B4BBF3 /* SettingViewController.swift */,
+				2FF1573720FCD46F00BC7DCA /* AboutUsViewController.swift */,
+				2FF1573D20FCE63900BC7DCA /* TermsAndConditionsViewController.swift */,
+				2F1C460920FDF7C700C61997 /* AboutConverseViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -259,7 +277,7 @@
 				TargetAttributes = {
 					2F4447911F3A08BD00A012EE = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = JX556H8Q63;
+						DevelopmentTeam = QW3MPB2KJW;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -290,9 +308,9 @@
 			files = (
 				2F4447A01F3A08BD00A012EE /* LaunchScreen.storyboard in Resources */,
 				2F220FAE1F51B76600DA4831 /* AddChannelViewController.xib in Resources */,
-				2F44479D1F3A08BD00A012EE /* Assets.xcassets in Resources */,
 				2F7E2CB91F507D4B00C9AC94 /* ProfileViewController.xib in Resources */,
 				2F1624FC1F616039001E77D0 /* EditUsernameViewController.xib in Resources */,
+				2F1C460C20FE20B600C61997 /* Assets.xcassets in Resources */,
 				2F44479B1F3A08BD00A012EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,24 +374,30 @@
 				2F01560B1F52FCE80023F909 /* SocketService.swift in Sources */,
 				2F0490141F478D2900FE52F4 /* LoginViewController.swift in Sources */,
 				2F220FAA1F51A7B800DA4831 /* ChannelCell.swift in Sources */,
+				2FF2595920FCA26900B4BBF3 /* SettingsCell.swift in Sources */,
 				2F22456A1F4C7BC30013174E /* RoundedButton.swift in Sources */,
 				2F4447961F3A08BD00A012EE /* AppDelegate.swift in Sources */,
 				2F4087A01F4DEE81006BB513 /* CircleImage.swift in Sources */,
+				2FF1573E20FCE63900BC7DCA /* TermsAndConditionsViewController.swift in Sources */,
 				2F6DB27F1F55D27700703FBF /* Message.swift in Sources */,
 				2F1624FB1F616039001E77D0 /* EditUsernameViewController.swift in Sources */,
 				2F2A2B351F50ED1400A81073 /* Channel.swift in Sources */,
+				2FF2595720FC9A3700B4BBF3 /* SettingViewController.swift in Sources */,
 				2FDE78291F4CDAD700CB7F5C /* UserDataService.swift in Sources */,
 				2F05C0F61F4D945D00633F44 /* AvatarCellCollectionViewCell.swift in Sources */,
 				2FFB7A411F44EDC600B92DA9 /* ChannelViewController.swift in Sources */,
 				2F2245681F4C69000013174E /* AuthService.swift in Sources */,
 				2F05C0F41F4D844900633F44 /* AvatarPickerViewController.swift in Sources */,
+				2F1C460820FDE83E00C61997 /* AboutFMCell.swift in Sources */,
 				2F2A2B331F50ED0600A81073 /* MessagesService.swift in Sources */,
 				2FA767271F472B2900B030FF /* GradientView.swift in Sources */,
+				2F1C460A20FDF7C700C61997 /* AboutConverseViewController.swift in Sources */,
 				2F220FAD1F51B76600DA4831 /* AddChannelViewController.swift in Sources */,
 				2F5BE5141F4A076A004A4952 /* CreateAccountViewController.swift in Sources */,
 				2FFB7A431F44EDDA00B92DA9 /* ChatViewController.swift in Sources */,
 				2F7E2CB81F507D4B00C9AC94 /* ProfileViewController.swift in Sources */,
 				2FDED7451F58687700C7AD29 /* MessageCellTableViewCell.swift in Sources */,
+				2FF1573820FCD46F00BC7DCA /* AboutUsViewController.swift in Sources */,
 				2F6F98161F41DDD600A41D08 /* SWRevealViewController.m in Sources */,
 				2F0490101F47587C00FE52F4 /* Constants.swift in Sources */,
 			);
@@ -500,11 +524,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = JX556H8Q63;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QW3MPB2KJW;
 				INFOPLIST_FILE = Converse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.FreakFrank.Converse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fm2apps.Converse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Converse-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -517,11 +544,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = JX556H8Q63;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QW3MPB2KJW;
 				INFOPLIST_FILE = Converse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.FreakFrank.Converse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fm2apps.Converse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Converse-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};

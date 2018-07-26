@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "9d44eb33c84e809232f1a2d1a6cbefb6"
+build_time: [1531821400, 313519000]
+inputs:
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/StarscreamSocketIO/Source/Compression.swift": [1502674443, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/StarscreamSocketIO/Source/SSLSecurity.swift": [1502674443, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/StarscreamSocketIO/Source/WebSocket.swift": [1502674443, 0]

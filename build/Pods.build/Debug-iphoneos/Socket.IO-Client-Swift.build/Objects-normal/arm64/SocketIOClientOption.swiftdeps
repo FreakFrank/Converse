@@ -1,0 +1,234 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ClientOption"
+- "SocketIOClientOption"
+- "=="
+provides-nominal:
+- "8SocketIO12ClientOptionP"
+- "8SocketIO0A14IOClientOptionO"
+provides-member:
+- ["8SocketIO12ClientOptionP", ""]
+- ["8SocketIO0A14IOClientOptionO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ClientOption"
+- "CustomStringConvertible"
+- "DispatchQueue"
+- "Equatable"
+- "HTTPCookie"
+- "Int"
+- "SSLSecurity"
+- "SocketIOClientOption"
+- "SocketLogger"
+- "String"
+- !private "StringLiteralType"
+- "URLSessionDelegate"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s7CVarArgP", "init"]
+- ["8SocketIO12ClientOptionP", ""]
+- ["8SocketIO12ClientOptionP", "compress"]
+- ["8SocketIO12ClientOptionP", "connectParams"]
+- ["8SocketIO12ClientOptionP", "cookies"]
+- ["8SocketIO12ClientOptionP", "description"]
+- ["8SocketIO12ClientOptionP", "doubleEncodeUTF8"]
+- ["8SocketIO12ClientOptionP", "extraHeaders"]
+- ["8SocketIO12ClientOptionP", "forceNew"]
+- ["8SocketIO12ClientOptionP", "forcePolling"]
+- ["8SocketIO12ClientOptionP", "forceWebsockets"]
+- ["8SocketIO12ClientOptionP", "getSocketIOOptionValue"]
+- ["8SocketIO12ClientOptionP", "handleQueue"]
+- ["8SocketIO12ClientOptionP", "log"]
+- ["8SocketIO12ClientOptionP", "logger"]
+- ["8SocketIO12ClientOptionP", "nsp"]
+- ["8SocketIO12ClientOptionP", "path"]
+- ["8SocketIO12ClientOptionP", "reconnectAttempts"]
+- ["8SocketIO12ClientOptionP", "reconnectWait"]
+- ["8SocketIO12ClientOptionP", "reconnects"]
+- ["8SocketIO12ClientOptionP", "secure"]
+- ["8SocketIO12ClientOptionP", "security"]
+- ["8SocketIO12ClientOptionP", "selfSigned"]
+- ["8SocketIO12ClientOptionP", "sessionDelegate"]
+- ["8SocketIO12ClientOptionP", "voipEnabled"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "compress"]
+- ["s23CustomStringConvertibleP", "connectParams"]
+- ["s23CustomStringConvertibleP", "cookies"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "doubleEncodeUTF8"]
+- ["s23CustomStringConvertibleP", "extraHeaders"]
+- ["s23CustomStringConvertibleP", "forceNew"]
+- ["s23CustomStringConvertibleP", "forcePolling"]
+- ["s23CustomStringConvertibleP", "forceWebsockets"]
+- ["s23CustomStringConvertibleP", "getSocketIOOptionValue"]
+- ["s23CustomStringConvertibleP", "handleQueue"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "log"]
+- ["s23CustomStringConvertibleP", "logger"]
+- ["s23CustomStringConvertibleP", "nsp"]
+- ["s23CustomStringConvertibleP", "path"]
+- ["s23CustomStringConvertibleP", "reconnectAttempts"]
+- ["s23CustomStringConvertibleP", "reconnectWait"]
+- ["s23CustomStringConvertibleP", "reconnects"]
+- ["s23CustomStringConvertibleP", "secure"]
+- ["s23CustomStringConvertibleP", "security"]
+- ["s23CustomStringConvertibleP", "selfSigned"]
+- ["s23CustomStringConvertibleP", "sessionDelegate"]
+- ["s23CustomStringConvertibleP", "voipEnabled"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "init"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "compress"]
+- ["s9EquatableP", "connectParams"]
+- ["s9EquatableP", "cookies"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "doubleEncodeUTF8"]
+- ["s9EquatableP", "extraHeaders"]
+- ["s9EquatableP", "forceNew"]
+- ["s9EquatableP", "forcePolling"]
+- ["s9EquatableP", "forceWebsockets"]
+- ["s9EquatableP", "getSocketIOOptionValue"]
+- ["s9EquatableP", "handleQueue"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "log"]
+- ["s9EquatableP", "logger"]
+- ["s9EquatableP", "nsp"]
+- ["s9EquatableP", "path"]
+- ["s9EquatableP", "reconnectAttempts"]
+- ["s9EquatableP", "reconnectWait"]
+- ["s9EquatableP", "reconnects"]
+- ["s9EquatableP", "secure"]
+- ["s9EquatableP", "security"]
+- ["s9EquatableP", "selfSigned"]
+- ["s9EquatableP", "sessionDelegate"]
+- ["s9EquatableP", "voipEnabled"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["8SocketIO0A4DataP", "init"]
+- ["8SocketIO0A14IOClientOptionO", "=="]
+- ["8SocketIO0A14IOClientOptionO", "Bool"]
+- ["8SocketIO0A14IOClientOptionO", "DispatchQueue"]
+- ["8SocketIO0A14IOClientOptionO", "HTTPCookie"]
+- ["8SocketIO0A14IOClientOptionO", "Int"]
+- ["8SocketIO0A14IOClientOptionO", "SSLSecurity"]
+- ["8SocketIO0A14IOClientOptionO", "SocketIOClientOption"]
+- ["8SocketIO0A14IOClientOptionO", "SocketLogger"]
+- ["8SocketIO0A14IOClientOptionO", "String"]
+- ["8SocketIO0A14IOClientOptionO", "URLSessionDelegate"]
+- ["8SocketIO0A14IOClientOptionO", "compress"]
+- ["8SocketIO0A14IOClientOptionO", "connectParams"]
+- ["8SocketIO0A14IOClientOptionO", "cookies"]
+- ["8SocketIO0A14IOClientOptionO", "deinit"]
+- ["8SocketIO0A14IOClientOptionO", "description"]
+- ["8SocketIO0A14IOClientOptionO", "doubleEncodeUTF8"]
+- ["8SocketIO0A14IOClientOptionO", "extraHeaders"]
+- ["8SocketIO0A14IOClientOptionO", "forceNew"]
+- ["8SocketIO0A14IOClientOptionO", "forcePolling"]
+- ["8SocketIO0A14IOClientOptionO", "forceWebsockets"]
+- ["8SocketIO0A14IOClientOptionO", "getSocketIOOptionValue"]
+- ["8SocketIO0A14IOClientOptionO", "handleQueue"]
+- ["8SocketIO0A14IOClientOptionO", "log"]
+- ["8SocketIO0A14IOClientOptionO", "logger"]
+- ["8SocketIO0A14IOClientOptionO", "nsp"]
+- ["8SocketIO0A14IOClientOptionO", "path"]
+- ["8SocketIO0A14IOClientOptionO", "reconnectAttempts"]
+- ["8SocketIO0A14IOClientOptionO", "reconnectWait"]
+- ["8SocketIO0A14IOClientOptionO", "reconnects"]
+- ["8SocketIO0A14IOClientOptionO", "secure"]
+- ["8SocketIO0A14IOClientOptionO", "security"]
+- ["8SocketIO0A14IOClientOptionO", "selfSigned"]
+- ["8SocketIO0A14IOClientOptionO", "sessionDelegate"]
+- ["8SocketIO0A14IOClientOptionO", "voipEnabled"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- "8SocketIO12ClientOptionP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "8SocketIO0A4DataP"
+- "8SocketIO0A14IOClientOptionO"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/StarscreamSocketIO.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/Target Support Files/StarscreamSocketIO/StarscreamSocketIO-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Pods.build/Debug-iphoneos/Socket.IO-Client-Swift.build/unextended-module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/StarscreamSocketIO/zlib/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Pods.build/Debug-iphoneos/StarscreamSocketIO.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "ae31bdf43820e31d4711a9a3d0706899"

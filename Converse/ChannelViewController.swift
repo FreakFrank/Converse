@@ -52,6 +52,9 @@ class ChannelViewController: UIViewController, UITableViewDelegate, UITableViewD
         
     }
 
+    @IBAction func settingsButtonPressed(_ sender: UIButton) {
+       performSegue(withIdentifier: TO_SETTINGS, sender: nil)
+    }
     @IBAction func loginButtonPressed(_ sender: Any) {
         
         if AuthService.instance.isLoggedIn {

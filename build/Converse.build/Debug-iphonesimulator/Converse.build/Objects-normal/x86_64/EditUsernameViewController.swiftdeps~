@@ -1,0 +1,635 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EditUsernameViewController"
+provides-nominal:
+- "8Converse26EditUsernameViewControllerC"
+provides-member:
+- ["8Converse26EditUsernameViewControllerC", ""]
+provides-dynamic-lookup:
+- "bgView"
+- "closeButtonPressed"
+- "confirmButtonPressed"
+- "dismissEditing"
+- "editUsernameTextField"
+- "endEditing"
+- "originalView"
+- "setupView"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- "AssignmentPrecedence"
+- !private "AuthService"
+- "BooleanLiteralType"
+- "EditUsernameViewController"
+- !private "NOTIFY_USER_DATA_CHANGE"
+- !private "NotificationCenter"
+- !private "StringLiteralType"
+- !private "UITapGestureRecognizer"
+- "UITextField"
+- "UIView"
+- "UIViewController"
+- !private "UserDataService"
+depends-member:
+- !private ["8Converse11AuthServiceC", "editUsername"]
+- !private ["8Converse11AuthServiceC", "instance"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["So15CALayerDelegateP", "endEditing"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "AuthService"]
+- !private ["s7CVarArgP", "EditUsernameViewController"]
+- !private ["s7CVarArgP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- !private ["s7CVarArgP", "UITapGestureRecognizer"]
+- !private ["s7CVarArgP", "UserDataService"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "bgView"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "dismissEditing"]
+- !private ["s7CVarArgP", "editUsernameTextField"]
+- !private ["s7CVarArgP", "endEditing"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "originalView"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "setupView"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AuthService"]
+- !private ["s28CustomDebugStringConvertibleP", "EditUsernameViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "UITapGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDataService"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "bgView"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "dismissEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "editUsernameTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "endEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "originalView"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "setupView"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "AuthService"]
+- !private ["s23CustomStringConvertibleP", "EditUsernameViewController"]
+- !private ["s23CustomStringConvertibleP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "UITapGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "UserDataService"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "bgView"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "dismissEditing"]
+- !private ["s23CustomStringConvertibleP", "editUsernameTextField"]
+- !private ["s23CustomStringConvertibleP", "endEditing"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "originalView"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "setupView"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["8Converse26EditUsernameViewControllerC", "AuthService"]
+- !private ["8Converse26EditUsernameViewControllerC", "EditUsernameViewController"]
+- !private ["8Converse26EditUsernameViewControllerC", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["8Converse26EditUsernameViewControllerC", "NotificationCenter"]
+- !private ["8Converse26EditUsernameViewControllerC", "UITapGestureRecognizer"]
+- ["8Converse26EditUsernameViewControllerC", "UITextField"]
+- ["8Converse26EditUsernameViewControllerC", "UIView"]
+- !private ["8Converse26EditUsernameViewControllerC", "UserDataService"]
+- ["8Converse26EditUsernameViewControllerC", "bgView"]
+- ["8Converse26EditUsernameViewControllerC", "closeButtonPressed"]
+- ["8Converse26EditUsernameViewControllerC", "confirmButtonPressed"]
+- ["8Converse26EditUsernameViewControllerC", "deinit"]
+- !private ["8Converse26EditUsernameViewControllerC", "dismiss"]
+- ["8Converse26EditUsernameViewControllerC", "dismissEditing"]
+- ["8Converse26EditUsernameViewControllerC", "editUsernameTextField"]
+- ["8Converse26EditUsernameViewControllerC", "endEditing"]
+- ["8Converse26EditUsernameViewControllerC", "init"]
+- ["8Converse26EditUsernameViewControllerC", "originalView"]
+- ["8Converse26EditUsernameViewControllerC", "setupView"]
+- !private ["8Converse26EditUsernameViewControllerC", "view"]
+- ["8Converse26EditUsernameViewControllerC", "viewDidLoad"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "AuthService"]
+- !private ["s9EquatableP", "EditUsernameViewController"]
+- !private ["s9EquatableP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["s9EquatableP", "NotificationCenter"]
+- !private ["s9EquatableP", "UITapGestureRecognizer"]
+- !private ["s9EquatableP", "UserDataService"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addGestureRecognizer"]
+- !private ["s9EquatableP", "bgView"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "dismiss"]
+- !private ["s9EquatableP", "dismissEditing"]
+- !private ["s9EquatableP", "editUsernameTextField"]
+- !private ["s9EquatableP", "endEditing"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "originalView"]
+- !private ["s9EquatableP", "post"]
+- !private ["s9EquatableP", "setupView"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "AuthService"]
+- !private ["s8HashableP", "EditUsernameViewController"]
+- !private ["s8HashableP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["s8HashableP", "NotificationCenter"]
+- !private ["s8HashableP", "UITapGestureRecognizer"]
+- !private ["s8HashableP", "UserDataService"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addGestureRecognizer"]
+- !private ["s8HashableP", "bgView"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "dismiss"]
+- !private ["s8HashableP", "dismissEditing"]
+- !private ["s8HashableP", "editUsernameTextField"]
+- !private ["s8HashableP", "endEditing"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "originalView"]
+- !private ["s8HashableP", "post"]
+- !private ["s8HashableP", "setupView"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "AuthService"]
+- !private ["So8NSCodingP", "EditUsernameViewController"]
+- !private ["So8NSCodingP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["So8NSCodingP", "NotificationCenter"]
+- !private ["So8NSCodingP", "UITapGestureRecognizer"]
+- !private ["So8NSCodingP", "UserDataService"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "bgView"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "dismissEditing"]
+- !private ["So8NSCodingP", "editUsernameTextField"]
+- !private ["So8NSCodingP", "endEditing"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "originalView"]
+- !private ["So8NSCodingP", "setupView"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "AuthService"]
+- !private ["So26NSExtensionRequestHandlingP", "EditUsernameViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["So26NSExtensionRequestHandlingP", "NotificationCenter"]
+- !private ["So26NSExtensionRequestHandlingP", "UITapGestureRecognizer"]
+- !private ["So26NSExtensionRequestHandlingP", "UserDataService"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "bgView"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "dismissEditing"]
+- !private ["So26NSExtensionRequestHandlingP", "editUsernameTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "endEditing"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "originalView"]
+- !private ["So26NSExtensionRequestHandlingP", "setupView"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "AuthService"]
+- !private ["So8NSObjectC", "EditUsernameViewController"]
+- !private ["So8NSObjectC", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- !private ["So8NSObjectC", "UITapGestureRecognizer"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "UserDataService"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- ["So8NSObjectC", "bgView"]
+- ["So8NSObjectC", "closeButtonPressed"]
+- ["So8NSObjectC", "confirmButtonPressed"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "dismissEditing"]
+- ["So8NSObjectC", "editUsernameTextField"]
+- ["So8NSObjectC", "endEditing"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "originalView"]
+- !private ["So8NSObjectC", "post"]
+- ["So8NSObjectC", "setupView"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "AuthService"]
+- !private ["So16NSObjectProtocolP", "EditUsernameViewController"]
+- !private ["So16NSObjectProtocolP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["So16NSObjectProtocolP", "NotificationCenter"]
+- !private ["So16NSObjectProtocolP", "UITapGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "UserDataService"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "bgView"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "dismiss"]
+- !private ["So16NSObjectProtocolP", "dismissEditing"]
+- !private ["So16NSObjectProtocolP", "editUsernameTextField"]
+- !private ["So16NSObjectProtocolP", "endEditing"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "originalView"]
+- !private ["So16NSObjectProtocolP", "post"]
+- !private ["So16NSObjectProtocolP", "setupView"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So18NotificationCenterC", "default"]
+- !private ["So18NotificationCenterC", "post"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["8SocketIO0A4DataP", "_getBuiltinLogicValue"]
+- !private ["8SocketIO0A4DataP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So29UIAccessibilityIdentificationP", "endEditing"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "endEditing"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "AuthService"]
+- !private ["So21UIAppearanceContainerP", "EditUsernameViewController"]
+- !private ["So21UIAppearanceContainerP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["So21UIAppearanceContainerP", "NotificationCenter"]
+- !private ["So21UIAppearanceContainerP", "UITapGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "UserDataService"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "bgView"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "dismissEditing"]
+- !private ["So21UIAppearanceContainerP", "editUsernameTextField"]
+- !private ["So21UIAppearanceContainerP", "endEditing"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "originalView"]
+- !private ["So21UIAppearanceContainerP", "setupView"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "AuthService"]
+- !private ["So18UIContentContainerP", "EditUsernameViewController"]
+- !private ["So18UIContentContainerP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["So18UIContentContainerP", "NotificationCenter"]
+- !private ["So18UIContentContainerP", "UITapGestureRecognizer"]
+- !private ["So18UIContentContainerP", "UserDataService"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "bgView"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "dismissEditing"]
+- !private ["So18UIContentContainerP", "editUsernameTextField"]
+- !private ["So18UIContentContainerP", "endEditing"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "originalView"]
+- !private ["So18UIContentContainerP", "setupView"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So17UICoordinateSpaceP", "endEditing"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "endEditing"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "AuthService"]
+- !private ["So18UIFocusEnvironmentP", "EditUsernameViewController"]
+- !private ["So18UIFocusEnvironmentP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["So18UIFocusEnvironmentP", "NotificationCenter"]
+- !private ["So18UIFocusEnvironmentP", "UITapGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "UserDataService"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "bgView"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "dismissEditing"]
+- !private ["So18UIFocusEnvironmentP", "editUsernameTextField"]
+- !private ["So18UIFocusEnvironmentP", "endEditing"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "originalView"]
+- !private ["So18UIFocusEnvironmentP", "setupView"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So11UIFocusItemP", "endEditing"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So19UIGestureRecognizerC", "init"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "AuthService"]
+- !private ["So30UIPasteConfigurationSupportingP", "EditUsernameViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["So30UIPasteConfigurationSupportingP", "NotificationCenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "UITapGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserDataService"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "bgView"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismissEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "editUsernameTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "endEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "originalView"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupView"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "AuthService"]
+- !private ["So11UIResponderC", "EditUsernameViewController"]
+- !private ["So11UIResponderC", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["So11UIResponderC", "NotificationCenter"]
+- !private ["So11UIResponderC", "UITapGestureRecognizer"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "UserDataService"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- ["So11UIResponderC", "bgView"]
+- ["So11UIResponderC", "closeButtonPressed"]
+- ["So11UIResponderC", "confirmButtonPressed"]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "dismissEditing"]
+- ["So11UIResponderC", "editUsernameTextField"]
+- ["So11UIResponderC", "endEditing"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "originalView"]
+- ["So11UIResponderC", "setupView"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "AuthService"]
+- !private ["So30UIResponderStandardEditActionsP", "EditUsernameViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["So30UIResponderStandardEditActionsP", "NotificationCenter"]
+- !private ["So30UIResponderStandardEditActionsP", "UITapGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "UserDataService"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "bgView"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "dismissEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "editUsernameTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "endEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "originalView"]
+- !private ["So30UIResponderStandardEditActionsP", "setupView"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "AuthService"]
+- !private ["So16UIStateRestoringP", "EditUsernameViewController"]
+- !private ["So16UIStateRestoringP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["So16UIStateRestoringP", "NotificationCenter"]
+- !private ["So16UIStateRestoringP", "UITapGestureRecognizer"]
+- !private ["So16UIStateRestoringP", "UserDataService"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "bgView"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "dismissEditing"]
+- !private ["So16UIStateRestoringP", "editUsernameTextField"]
+- !private ["So16UIStateRestoringP", "endEditing"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "originalView"]
+- !private ["So16UIStateRestoringP", "setupView"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So22UITapGestureRecognizerC", "init"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "AuthService"]
+- !private ["So18UITraitEnvironmentP", "EditUsernameViewController"]
+- !private ["So18UITraitEnvironmentP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["So18UITraitEnvironmentP", "NotificationCenter"]
+- !private ["So18UITraitEnvironmentP", "UITapGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "UserDataService"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "bgView"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "dismissEditing"]
+- !private ["So18UITraitEnvironmentP", "editUsernameTextField"]
+- !private ["So18UITraitEnvironmentP", "endEditing"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "originalView"]
+- !private ["So18UITraitEnvironmentP", "setupView"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- !private ["So6UIViewC", "endEditing"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "AuthService"]
+- !private ["So16UIViewControllerC", "EditUsernameViewController"]
+- !private ["So16UIViewControllerC", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["So16UIViewControllerC", "NotificationCenter"]
+- !private ["So16UIViewControllerC", "UITapGestureRecognizer"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", "UIView"]
+- !private ["So16UIViewControllerC", "UserDataService"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "bgView"]
+- ["So16UIViewControllerC", "closeButtonPressed"]
+- ["So16UIViewControllerC", "confirmButtonPressed"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "dismissEditing"]
+- ["So16UIViewControllerC", "editUsernameTextField"]
+- ["So16UIViewControllerC", "endEditing"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "originalView"]
+- ["So16UIViewControllerC", "setupView"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["8Converse15UserDataServiceC", "instance"]
+- !private ["8Converse15UserDataServiceC", "name"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "endEditing"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AuthService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "EditUsernameViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NOTIFY_USER_DATA_CHANGE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITapGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDataService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bgView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismissEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "editUsernameTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "originalView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "8Converse11AuthServiceC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "8Converse26EditUsernameViewControllerC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So18NotificationCenterC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "8SocketIO0A4DataP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So19UIGestureRecognizerC"
+- !private "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So22UITapGestureRecognizerC"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "8Converse15UserDataServiceC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/StarscreamSocketIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Converse-Bridging-Header.h"
+- "/Users/kareemismail/XCodeProjects/Converse/SWRevealViewController.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/StarscreamSocketIO/zlib/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "03f506cf2e8cccd08e96da1d37df9070"

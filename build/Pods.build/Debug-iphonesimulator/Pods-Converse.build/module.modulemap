@@ -1,0 +1,6 @@
+framework module Pods_Converse {
+  umbrella header "Pods-Converse-umbrella.h"
+
+  export *
+  module * { export * }
+}

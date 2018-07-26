@@ -1,0 +1,271 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserDataService"
+provides-nominal:
+- "8Converse15UserDataServiceC"
+provides-member:
+- ["8Converse15UserDataServiceC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "AuthService"
+- !private "BooleanLiteralType"
+- !private "CGFloat"
+- !private "CharacterSet"
+- !private "NSString"
+- !private "Scanner"
+- "String"
+- "StringLiteralType"
+- "UIColor"
+- !private "UnicodeScalarType"
+- "UserDataService"
+depends-member:
+- !private ["8Converse11AuthServiceC", "authToken"]
+- !private ["8Converse11AuthServiceC", "instance"]
+- !private ["8Converse11AuthServiceC", "isLoggedIn"]
+- !private ["8Converse11AuthServiceC", "userEmail"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s19BinaryFloatingPointP", "init"]
+- !private ["12CoreGraphics7CGFloatV", "init"]
+- !private ["s7CVarArgP", "charactersToBeSkipped"]
+- !private ["s7CVarArgP", "doubleValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lightGray"]
+- !private ["s7CVarArgP", "scanUpToCharacters"]
+- !private ["10Foundation12CharacterSetV", "init"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "charactersToBeSkipped"]
+- !private ["s28CustomDebugStringConvertibleP", "doubleValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lightGray"]
+- !private ["s28CustomDebugStringConvertibleP", "scanUpToCharacters"]
+- !private ["s29CustomPlaygroundQuickLookableP", "doubleValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "charactersToBeSkipped"]
+- !private ["s23CustomStringConvertibleP", "doubleValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lightGray"]
+- !private ["s23CustomStringConvertibleP", "scanUpToCharacters"]
+- ["s9DecodableP", "init"]
+- ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "charactersToBeSkipped"]
+- !private ["s9EquatableP", "doubleValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lightGray"]
+- !private ["s9EquatableP", "scanUpToCharacters"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "doubleValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "doubleValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "doubleValue"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "charactersToBeSkipped"]
+- !private ["s8HashableP", "doubleValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "lightGray"]
+- !private ["s8HashableP", "scanUpToCharacters"]
+- ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "doubleValue"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "lightGray"]
+- !private ["So9NSCopyingP", "charactersToBeSkipped"]
+- !private ["So9NSCopyingP", "doubleValue"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "lightGray"]
+- !private ["So9NSCopyingP", "scanUpToCharacters"]
+- !private ["So21NSItemProviderReadingP", "doubleValue"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "lightGray"]
+- !private ["So21NSItemProviderWritingP", "doubleValue"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "lightGray"]
+- !private ["So16NSMutableCopyingP", "doubleValue"]
+- !private ["So8NSObjectC", "charactersToBeSkipped"]
+- !private ["So8NSObjectC", "doubleValue"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lightGray"]
+- !private ["So8NSObjectC", "scanUpToCharacters"]
+- !private ["So16NSObjectProtocolP", "charactersToBeSkipped"]
+- !private ["So16NSObjectProtocolP", "doubleValue"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lightGray"]
+- !private ["So16NSObjectProtocolP", "scanUpToCharacters"]
+- !private ["So14NSSecureCodingP", "doubleValue"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "lightGray"]
+- !private ["So8NSStringC", "doubleValue"]
+- !private ["s7NumericP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["So7ScannerC", "charactersToBeSkipped"]
+- !private ["So7ScannerC", "init"]
+- !private ["So7ScannerC", "scanUpToCharacters"]
+- ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["8SocketIO0A4DataP", "doubleValue"]
+- ["8SocketIO0A4DataP", "init"]
+- !private ["s10StrideableP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So7UIColorC", "init"]
+- !private ["So7UIColorC", "lightGray"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["8Converse15UserDataServiceC", "AuthService"]
+- !private ["8Converse15UserDataServiceC", "CGFloat"]
+- !private ["8Converse15UserDataServiceC", "CharacterSet"]
+- !private ["8Converse15UserDataServiceC", "NSString"]
+- !private ["8Converse15UserDataServiceC", "Scanner"]
+- ["8Converse15UserDataServiceC", "String"]
+- ["8Converse15UserDataServiceC", "UIColor"]
+- ["8Converse15UserDataServiceC", "UserDataService"]
+- ["8Converse15UserDataServiceC", "avatarColor"]
+- ["8Converse15UserDataServiceC", "avatarName"]
+- ["8Converse15UserDataServiceC", "deinit"]
+- ["8Converse15UserDataServiceC", "email"]
+- ["8Converse15UserDataServiceC", "id"]
+- ["8Converse15UserDataServiceC", "init"]
+- ["8Converse15UserDataServiceC", "instance"]
+- ["8Converse15UserDataServiceC", "logoutUser"]
+- ["8Converse15UserDataServiceC", "name"]
+- ["8Converse15UserDataServiceC", "returnUIColor"]
+- ["8Converse15UserDataServiceC", "setAvatarName"]
+- ["8Converse15UserDataServiceC", "setNewUsername"]
+- ["8Converse15UserDataServiceC", "setUserData"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "lightGray"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "doubleValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "charactersToBeSkipped"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "doubleValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lightGray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scanUpToCharacters"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "8Converse11AuthServiceC"
+- "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "12CoreGraphics7CGFloatV"
+- "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- "10SwiftyJSON17JSONSubscriptTypeP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s7NumericP"
+- "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So7ScannerC"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s13SignedNumericP"
+- "8SocketIO0A4DataP"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So7UIColorC"
+- "9Alamofire14URLConvertibleP"
+- "8Converse15UserDataServiceC"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/arm64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/StarscreamSocketIO.swiftmodule/arm64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Converse-Bridging-Header.h"
+- "/Users/kareemismail/XCodeProjects/Converse/SWRevealViewController.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/StarscreamSocketIO/zlib/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "163a7f5c67834f7970cd973911a954ae"

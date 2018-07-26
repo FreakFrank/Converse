@@ -1,0 +1,65 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Channel"
+provides-nominal:
+- "8Converse7ChannelV"
+provides-member:
+- ["8Converse7ChannelV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Channel"
+- "String"
+depends-member:
+- ["8Converse7ChannelV", "String"]
+- ["8Converse7ChannelV", "description"]
+- ["8Converse7ChannelV", "id"]
+- ["8Converse7ChannelV", "init"]
+- ["8Converse7ChannelV", "name"]
+depends-nominal:
+- "8Converse7ChannelV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/StarscreamSocketIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Converse-Bridging-Header.h"
+- "/Users/kareemismail/XCodeProjects/Converse/SWRevealViewController.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/StarscreamSocketIO/zlib/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a2a9d7e612b0fbd8029b2824f0c28eac"

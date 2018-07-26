@@ -1,0 +1,695 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AddChannelViewController"
+provides-nominal:
+- "8Converse24AddChannelViewControllerC"
+provides-member:
+- ["8Converse24AddChannelViewControllerC", ""]
+provides-dynamic-lookup:
+- "bgView"
+- "closeButtonPressed"
+- "closeTap"
+- "createButtonPressed"
+- "creationView"
+- "descriptionTextField"
+- "endEditing"
+- "nameTextField"
+- "setupView"
+- "viewDidLoad"
+depends-top-level:
+- !private "!="
+- "AddChannelViewController"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "Dictionary"
+- !private "NSAttributedString"
+- !private "NSForegroundColorAttributeName"
+- !private "SocketService"
+- !private "StringLiteralType"
+- !private "UITapGestureRecognizer"
+- "UITextField"
+- "UIView"
+- "UIViewController"
+- !private "purpleColor"
+depends-member:
+- !private ["8Converse24AddChannelViewControllerC", "AddChannelViewController"]
+- !private ["8Converse24AddChannelViewControllerC", "NSAttributedString"]
+- !private ["8Converse24AddChannelViewControllerC", "NSForegroundColorAttributeName"]
+- !private ["8Converse24AddChannelViewControllerC", "SocketService"]
+- !private ["8Converse24AddChannelViewControllerC", "UITapGestureRecognizer"]
+- ["8Converse24AddChannelViewControllerC", "UITextField"]
+- ["8Converse24AddChannelViewControllerC", "UIView"]
+- ["8Converse24AddChannelViewControllerC", "bgView"]
+- ["8Converse24AddChannelViewControllerC", "closeButtonPressed"]
+- ["8Converse24AddChannelViewControllerC", "closeTap"]
+- ["8Converse24AddChannelViewControllerC", "createButtonPressed"]
+- ["8Converse24AddChannelViewControllerC", "creationView"]
+- ["8Converse24AddChannelViewControllerC", "deinit"]
+- ["8Converse24AddChannelViewControllerC", "descriptionTextField"]
+- !private ["8Converse24AddChannelViewControllerC", "dismiss"]
+- ["8Converse24AddChannelViewControllerC", "endEditing"]
+- ["8Converse24AddChannelViewControllerC", "init"]
+- ["8Converse24AddChannelViewControllerC", "nameTextField"]
+- !private ["8Converse24AddChannelViewControllerC", "purpleColor"]
+- ["8Converse24AddChannelViewControllerC", "setupView"]
+- !private ["8Converse24AddChannelViewControllerC", "view"]
+- ["8Converse24AddChannelViewControllerC", "viewDidLoad"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "addGestureRecognizer"]
+- !private ["So15CALayerDelegateP", "attributedPlaceholder"]
+- !private ["So15CALayerDelegateP", "endEditing"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "AddChannelViewController"]
+- !private ["s7CVarArgP", "NSAttributedString"]
+- !private ["s7CVarArgP", "NSForegroundColorAttributeName"]
+- !private ["s7CVarArgP", "SocketService"]
+- !private ["s7CVarArgP", "UITapGestureRecognizer"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addChannel"]
+- !private ["s7CVarArgP", "addGestureRecognizer"]
+- !private ["s7CVarArgP", "attributedPlaceholder"]
+- !private ["s7CVarArgP", "bgView"]
+- !private ["s7CVarArgP", "closeTap"]
+- !private ["s7CVarArgP", "creationView"]
+- !private ["s7CVarArgP", "descriptionTextField"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "endEditing"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instance"]
+- !private ["s7CVarArgP", "nameTextField"]
+- !private ["s7CVarArgP", "purpleColor"]
+- !private ["s7CVarArgP", "setupView"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AddChannelViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "NSAttributedString"]
+- !private ["s28CustomDebugStringConvertibleP", "NSForegroundColorAttributeName"]
+- !private ["s28CustomDebugStringConvertibleP", "SocketService"]
+- !private ["s28CustomDebugStringConvertibleP", "UITapGestureRecognizer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addChannel"]
+- !private ["s28CustomDebugStringConvertibleP", "addGestureRecognizer"]
+- !private ["s28CustomDebugStringConvertibleP", "attributedPlaceholder"]
+- !private ["s28CustomDebugStringConvertibleP", "bgView"]
+- !private ["s28CustomDebugStringConvertibleP", "closeTap"]
+- !private ["s28CustomDebugStringConvertibleP", "creationView"]
+- !private ["s28CustomDebugStringConvertibleP", "descriptionTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "endEditing"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instance"]
+- !private ["s28CustomDebugStringConvertibleP", "nameTextField"]
+- !private ["s28CustomDebugStringConvertibleP", "purpleColor"]
+- !private ["s28CustomDebugStringConvertibleP", "setupView"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "AddChannelViewController"]
+- !private ["s23CustomStringConvertibleP", "NSAttributedString"]
+- !private ["s23CustomStringConvertibleP", "NSForegroundColorAttributeName"]
+- !private ["s23CustomStringConvertibleP", "SocketService"]
+- !private ["s23CustomStringConvertibleP", "UITapGestureRecognizer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addChannel"]
+- !private ["s23CustomStringConvertibleP", "addGestureRecognizer"]
+- !private ["s23CustomStringConvertibleP", "attributedPlaceholder"]
+- !private ["s23CustomStringConvertibleP", "bgView"]
+- !private ["s23CustomStringConvertibleP", "closeTap"]
+- !private ["s23CustomStringConvertibleP", "creationView"]
+- !private ["s23CustomStringConvertibleP", "descriptionTextField"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "endEditing"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instance"]
+- !private ["s23CustomStringConvertibleP", "nameTextField"]
+- !private ["s23CustomStringConvertibleP", "purpleColor"]
+- !private ["s23CustomStringConvertibleP", "setupView"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "AddChannelViewController"]
+- !private ["s9EquatableP", "NSAttributedString"]
+- !private ["s9EquatableP", "NSForegroundColorAttributeName"]
+- !private ["s9EquatableP", "SocketService"]
+- !private ["s9EquatableP", "UITapGestureRecognizer"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addChannel"]
+- !private ["s9EquatableP", "addGestureRecognizer"]
+- !private ["s9EquatableP", "attributedPlaceholder"]
+- !private ["s9EquatableP", "bgView"]
+- !private ["s9EquatableP", "closeTap"]
+- !private ["s9EquatableP", "creationView"]
+- !private ["s9EquatableP", "descriptionTextField"]
+- !private ["s9EquatableP", "dismiss"]
+- !private ["s9EquatableP", "endEditing"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instance"]
+- !private ["s9EquatableP", "nameTextField"]
+- !private ["s9EquatableP", "purpleColor"]
+- !private ["s9EquatableP", "setupView"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "view"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "AddChannelViewController"]
+- !private ["s8HashableP", "NSAttributedString"]
+- !private ["s8HashableP", "NSForegroundColorAttributeName"]
+- !private ["s8HashableP", "SocketService"]
+- !private ["s8HashableP", "UITapGestureRecognizer"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addChannel"]
+- !private ["s8HashableP", "addGestureRecognizer"]
+- !private ["s8HashableP", "attributedPlaceholder"]
+- !private ["s8HashableP", "bgView"]
+- !private ["s8HashableP", "closeTap"]
+- !private ["s8HashableP", "creationView"]
+- !private ["s8HashableP", "descriptionTextField"]
+- !private ["s8HashableP", "dismiss"]
+- !private ["s8HashableP", "endEditing"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instance"]
+- !private ["s8HashableP", "nameTextField"]
+- !private ["s8HashableP", "purpleColor"]
+- !private ["s8HashableP", "setupView"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "view"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So18NSAttributedStringC", "init"]
+- !private ["So8NSCodingP", "AddChannelViewController"]
+- !private ["So8NSCodingP", "NSAttributedString"]
+- !private ["So8NSCodingP", "NSForegroundColorAttributeName"]
+- !private ["So8NSCodingP", "SocketService"]
+- !private ["So8NSCodingP", "UITapGestureRecognizer"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addGestureRecognizer"]
+- !private ["So8NSCodingP", "attributedPlaceholder"]
+- !private ["So8NSCodingP", "bgView"]
+- !private ["So8NSCodingP", "closeTap"]
+- !private ["So8NSCodingP", "creationView"]
+- !private ["So8NSCodingP", "descriptionTextField"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "endEditing"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "nameTextField"]
+- !private ["So8NSCodingP", "purpleColor"]
+- !private ["So8NSCodingP", "setupView"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "AddChannelViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "NSAttributedString"]
+- !private ["So26NSExtensionRequestHandlingP", "NSForegroundColorAttributeName"]
+- !private ["So26NSExtensionRequestHandlingP", "SocketService"]
+- !private ["So26NSExtensionRequestHandlingP", "UITapGestureRecognizer"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "bgView"]
+- !private ["So26NSExtensionRequestHandlingP", "closeTap"]
+- !private ["So26NSExtensionRequestHandlingP", "creationView"]
+- !private ["So26NSExtensionRequestHandlingP", "descriptionTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- !private ["So26NSExtensionRequestHandlingP", "endEditing"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "nameTextField"]
+- !private ["So26NSExtensionRequestHandlingP", "purpleColor"]
+- !private ["So26NSExtensionRequestHandlingP", "setupView"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "AddChannelViewController"]
+- !private ["So8NSObjectC", "NSAttributedString"]
+- !private ["So8NSObjectC", "NSForegroundColorAttributeName"]
+- !private ["So8NSObjectC", "SocketService"]
+- !private ["So8NSObjectC", "UITapGestureRecognizer"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "UIView"]
+- !private ["So8NSObjectC", "addChannel"]
+- !private ["So8NSObjectC", "addGestureRecognizer"]
+- !private ["So8NSObjectC", "attributedPlaceholder"]
+- ["So8NSObjectC", "bgView"]
+- ["So8NSObjectC", "closeButtonPressed"]
+- ["So8NSObjectC", "closeTap"]
+- ["So8NSObjectC", "createButtonPressed"]
+- ["So8NSObjectC", "creationView"]
+- ["So8NSObjectC", "descriptionTextField"]
+- !private ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "endEditing"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instance"]
+- ["So8NSObjectC", "nameTextField"]
+- !private ["So8NSObjectC", "purpleColor"]
+- ["So8NSObjectC", "setupView"]
+- !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "AddChannelViewController"]
+- !private ["So16NSObjectProtocolP", "NSAttributedString"]
+- !private ["So16NSObjectProtocolP", "NSForegroundColorAttributeName"]
+- !private ["So16NSObjectProtocolP", "SocketService"]
+- !private ["So16NSObjectProtocolP", "UITapGestureRecognizer"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addChannel"]
+- !private ["So16NSObjectProtocolP", "addGestureRecognizer"]
+- !private ["So16NSObjectProtocolP", "attributedPlaceholder"]
+- !private ["So16NSObjectProtocolP", "bgView"]
+- !private ["So16NSObjectProtocolP", "closeTap"]
+- !private ["So16NSObjectProtocolP", "creationView"]
+- !private ["So16NSObjectProtocolP", "descriptionTextField"]
+- !private ["So16NSObjectProtocolP", "dismiss"]
+- !private ["So16NSObjectProtocolP", "endEditing"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instance"]
+- !private ["So16NSObjectProtocolP", "nameTextField"]
+- !private ["So16NSObjectProtocolP", "purpleColor"]
+- !private ["So16NSObjectProtocolP", "setupView"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "view"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["8SocketIO0A4DataP", "_getBuiltinLogicValue"]
+- !private ["8SocketIO0A4DataP", "init"]
+- !private ["8Converse13SocketServiceC", "addChannel"]
+- !private ["8Converse13SocketServiceC", "instance"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "addGestureRecognizer"]
+- !private ["So29UIAccessibilityIdentificationP", "attributedPlaceholder"]
+- !private ["So29UIAccessibilityIdentificationP", "endEditing"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "addGestureRecognizer"]
+- !private ["So12UIAppearanceP", "attributedPlaceholder"]
+- !private ["So12UIAppearanceP", "endEditing"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "AddChannelViewController"]
+- !private ["So21UIAppearanceContainerP", "NSAttributedString"]
+- !private ["So21UIAppearanceContainerP", "NSForegroundColorAttributeName"]
+- !private ["So21UIAppearanceContainerP", "SocketService"]
+- !private ["So21UIAppearanceContainerP", "UITapGestureRecognizer"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addGestureRecognizer"]
+- !private ["So21UIAppearanceContainerP", "attributedPlaceholder"]
+- !private ["So21UIAppearanceContainerP", "bgView"]
+- !private ["So21UIAppearanceContainerP", "closeTap"]
+- !private ["So21UIAppearanceContainerP", "creationView"]
+- !private ["So21UIAppearanceContainerP", "descriptionTextField"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "endEditing"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "nameTextField"]
+- !private ["So21UIAppearanceContainerP", "purpleColor"]
+- !private ["So21UIAppearanceContainerP", "setupView"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "AddChannelViewController"]
+- !private ["So18UIContentContainerP", "NSAttributedString"]
+- !private ["So18UIContentContainerP", "NSForegroundColorAttributeName"]
+- !private ["So18UIContentContainerP", "SocketService"]
+- !private ["So18UIContentContainerP", "UITapGestureRecognizer"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "bgView"]
+- !private ["So18UIContentContainerP", "closeTap"]
+- !private ["So18UIContentContainerP", "creationView"]
+- !private ["So18UIContentContainerP", "descriptionTextField"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- !private ["So18UIContentContainerP", "endEditing"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "nameTextField"]
+- !private ["So18UIContentContainerP", "purpleColor"]
+- !private ["So18UIContentContainerP", "setupView"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "attributedPlaceholder"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "attributedPlaceholder"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "addGestureRecognizer"]
+- !private ["So17UICoordinateSpaceP", "attributedPlaceholder"]
+- !private ["So17UICoordinateSpaceP", "endEditing"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "addGestureRecognizer"]
+- !private ["So13UIDynamicItemP", "attributedPlaceholder"]
+- !private ["So13UIDynamicItemP", "endEditing"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "AddChannelViewController"]
+- !private ["So18UIFocusEnvironmentP", "NSAttributedString"]
+- !private ["So18UIFocusEnvironmentP", "NSForegroundColorAttributeName"]
+- !private ["So18UIFocusEnvironmentP", "SocketService"]
+- !private ["So18UIFocusEnvironmentP", "UITapGestureRecognizer"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UIFocusEnvironmentP", "attributedPlaceholder"]
+- !private ["So18UIFocusEnvironmentP", "bgView"]
+- !private ["So18UIFocusEnvironmentP", "closeTap"]
+- !private ["So18UIFocusEnvironmentP", "creationView"]
+- !private ["So18UIFocusEnvironmentP", "descriptionTextField"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "endEditing"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "nameTextField"]
+- !private ["So18UIFocusEnvironmentP", "purpleColor"]
+- !private ["So18UIFocusEnvironmentP", "setupView"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "addGestureRecognizer"]
+- !private ["So11UIFocusItemP", "attributedPlaceholder"]
+- !private ["So11UIFocusItemP", "endEditing"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So19UIGestureRecognizerC", "init"]
+- !private ["So10UIKeyInputP", "attributedPlaceholder"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "AddChannelViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSAttributedString"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSForegroundColorAttributeName"]
+- !private ["So30UIPasteConfigurationSupportingP", "SocketService"]
+- !private ["So30UIPasteConfigurationSupportingP", "UITapGestureRecognizer"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addGestureRecognizer"]
+- !private ["So30UIPasteConfigurationSupportingP", "attributedPlaceholder"]
+- !private ["So30UIPasteConfigurationSupportingP", "bgView"]
+- !private ["So30UIPasteConfigurationSupportingP", "closeTap"]
+- !private ["So30UIPasteConfigurationSupportingP", "creationView"]
+- !private ["So30UIPasteConfigurationSupportingP", "descriptionTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "endEditing"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "nameTextField"]
+- !private ["So30UIPasteConfigurationSupportingP", "purpleColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "setupView"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "AddChannelViewController"]
+- !private ["So11UIResponderC", "NSAttributedString"]
+- !private ["So11UIResponderC", "NSForegroundColorAttributeName"]
+- !private ["So11UIResponderC", "SocketService"]
+- !private ["So11UIResponderC", "UITapGestureRecognizer"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "UIView"]
+- !private ["So11UIResponderC", "addGestureRecognizer"]
+- !private ["So11UIResponderC", "attributedPlaceholder"]
+- ["So11UIResponderC", "bgView"]
+- ["So11UIResponderC", "closeButtonPressed"]
+- ["So11UIResponderC", "closeTap"]
+- ["So11UIResponderC", "createButtonPressed"]
+- ["So11UIResponderC", "creationView"]
+- ["So11UIResponderC", "descriptionTextField"]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "endEditing"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "nameTextField"]
+- !private ["So11UIResponderC", "purpleColor"]
+- ["So11UIResponderC", "setupView"]
+- !private ["So11UIResponderC", "text"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "AddChannelViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "NSAttributedString"]
+- !private ["So30UIResponderStandardEditActionsP", "NSForegroundColorAttributeName"]
+- !private ["So30UIResponderStandardEditActionsP", "SocketService"]
+- !private ["So30UIResponderStandardEditActionsP", "UITapGestureRecognizer"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addGestureRecognizer"]
+- !private ["So30UIResponderStandardEditActionsP", "attributedPlaceholder"]
+- !private ["So30UIResponderStandardEditActionsP", "bgView"]
+- !private ["So30UIResponderStandardEditActionsP", "closeTap"]
+- !private ["So30UIResponderStandardEditActionsP", "creationView"]
+- !private ["So30UIResponderStandardEditActionsP", "descriptionTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "endEditing"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "nameTextField"]
+- !private ["So30UIResponderStandardEditActionsP", "purpleColor"]
+- !private ["So30UIResponderStandardEditActionsP", "setupView"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "AddChannelViewController"]
+- !private ["So16UIStateRestoringP", "NSAttributedString"]
+- !private ["So16UIStateRestoringP", "NSForegroundColorAttributeName"]
+- !private ["So16UIStateRestoringP", "SocketService"]
+- !private ["So16UIStateRestoringP", "UITapGestureRecognizer"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "bgView"]
+- !private ["So16UIStateRestoringP", "closeTap"]
+- !private ["So16UIStateRestoringP", "creationView"]
+- !private ["So16UIStateRestoringP", "descriptionTextField"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- !private ["So16UIStateRestoringP", "endEditing"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "nameTextField"]
+- !private ["So16UIStateRestoringP", "purpleColor"]
+- !private ["So16UIStateRestoringP", "setupView"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So22UITapGestureRecognizerC", "init"]
+- !private ["So15UITextDraggableP", "attributedPlaceholder"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "attributedPlaceholder"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "attributedPlaceholder"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "attributedPlaceholder"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "attributedPlaceholder"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "attributedPlaceholder"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "AddChannelViewController"]
+- !private ["So18UITraitEnvironmentP", "NSAttributedString"]
+- !private ["So18UITraitEnvironmentP", "NSForegroundColorAttributeName"]
+- !private ["So18UITraitEnvironmentP", "SocketService"]
+- !private ["So18UITraitEnvironmentP", "UITapGestureRecognizer"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addGestureRecognizer"]
+- !private ["So18UITraitEnvironmentP", "attributedPlaceholder"]
+- !private ["So18UITraitEnvironmentP", "bgView"]
+- !private ["So18UITraitEnvironmentP", "closeTap"]
+- !private ["So18UITraitEnvironmentP", "creationView"]
+- !private ["So18UITraitEnvironmentP", "descriptionTextField"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "endEditing"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "nameTextField"]
+- !private ["So18UITraitEnvironmentP", "purpleColor"]
+- !private ["So18UITraitEnvironmentP", "setupView"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "addGestureRecognizer"]
+- !private ["So6UIViewC", "attributedPlaceholder"]
+- !private ["So6UIViewC", "endEditing"]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "AddChannelViewController"]
+- !private ["So16UIViewControllerC", "NSAttributedString"]
+- !private ["So16UIViewControllerC", "NSForegroundColorAttributeName"]
+- !private ["So16UIViewControllerC", "SocketService"]
+- !private ["So16UIViewControllerC", "UITapGestureRecognizer"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", "UIView"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "bgView"]
+- ["So16UIViewControllerC", "closeButtonPressed"]
+- ["So16UIViewControllerC", "closeTap"]
+- ["So16UIViewControllerC", "createButtonPressed"]
+- ["So16UIViewControllerC", "creationView"]
+- ["So16UIViewControllerC", "descriptionTextField"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "endEditing"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "nameTextField"]
+- !private ["So16UIViewControllerC", "purpleColor"]
+- ["So16UIViewControllerC", "setupView"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "addGestureRecognizer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "attributedPlaceholder"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "endEditing"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AddChannelViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSAttributedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSForegroundColorAttributeName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SocketService"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITapGestureRecognizer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addChannel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addGestureRecognizer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributedPlaceholder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bgView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "closeTap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "creationView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "descriptionTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nameTextField"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "purpleColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "8Converse24AddChannelViewControllerC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So18NSAttributedStringC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "8SocketIO0A4DataP"
+- !private "8Converse13SocketServiceC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So19UIGestureRecognizerC"
+- !private "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- !private "So22UITapGestureRecognizerC"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/StarscreamSocketIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Converse-Bridging-Header.h"
+- "/Users/kareemismail/XCodeProjects/Converse/SWRevealViewController.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/StarscreamSocketIO/zlib/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "0ad85980319c0674e935dd2722bed06d"

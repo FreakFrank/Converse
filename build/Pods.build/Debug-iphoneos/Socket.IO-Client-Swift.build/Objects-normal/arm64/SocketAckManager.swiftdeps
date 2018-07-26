@@ -1,0 +1,309 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketAckStatus"
+- "SocketAckManager"
+provides-nominal:
+- "8SocketIO0A9AckStatusO"
+- "8SocketIO0A10AckManagerV"
+provides-member:
+- ["8SocketIO0A9AckStatusO", ""]
+- ["8SocketIO0A10AckManagerV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "<"
+- "=="
+- "AckCallback"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "DispatchQueue"
+- "DispatchSemaphore"
+- "FloatLiteralType"
+- "Hashable"
+- "Int"
+- "IntegerLiteralType"
+- "Set"
+- "SocketAck"
+- "SocketAckManager"
+- "SocketAckStatus"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s13BinaryIntegerP", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "remove"]
+- !private ["s7CVarArgP", "signal"]
+- !private ["s7CVarArgP", "wait"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "insert"]
+- !private ["s10CollectionP", "remove"]
+- !private ["s10ComparableP", "hashValue"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "signal"]
+- !private ["s28CustomDebugStringConvertibleP", "wait"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "insert"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "signal"]
+- !private ["s23CustomStringConvertibleP", "wait"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "insert"]
+- !private ["s9DecodableP", "remove"]
+- !private ["So14DispatchObjectC", "async"]
+- ["So14DispatchObjectC", "init"]
+- !private ["So14DispatchObjectC", "signal"]
+- !private ["So14DispatchObjectC", "wait"]
+- !private ["So13DispatchQueueC", "async"]
+- ["So17DispatchSemaphoreC", "init"]
+- !private ["So17DispatchSemaphoreC", "signal"]
+- !private ["So17DispatchSemaphoreC", "wait"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "insert"]
+- !private ["s9EncodableP", "remove"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_findStringSwitchCase"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "ack"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "callback"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "insert"]
+- !private ["s9EquatableP", "noAck"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "remove"]
+- !private ["s9EquatableP", "signal"]
+- !private ["s9EquatableP", "wait"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "hashValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "hashValue"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_findStringSwitchCase"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "ack"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "callback"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "insert"]
+- !private ["s8HashableP", "noAck"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "remove"]
+- !private ["s8HashableP", "signal"]
+- !private ["s8HashableP", "wait"]
+- !private ["Si", "hashValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hashValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "hashValue"]
+- ["s10MirrorPathP", "init"]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "signal"]
+- !private ["So8NSObjectC", "wait"]
+- !private ["So16NSObjectProtocolP", "async"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "signal"]
+- !private ["So16NSObjectProtocolP", "wait"]
+- !private ["s7NumericP", "hashValue"]
+- !private ["So9OS_objectC", "async"]
+- ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "signal"]
+- !private ["So9OS_objectC", "wait"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "_findStringSwitchCase"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "noAck"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "insert"]
+- !private ["s8SequenceP", "remove"]
+- ["s3SetV", "init"]
+- !private ["s3SetV", "insert"]
+- !private ["s3SetV", "remove"]
+- ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["s10SetAlgebraP", "remove"]
+- !private ["s13SignedIntegerP", "hashValue"]
+- !private ["s13SignedNumericP", "hashValue"]
+- ["8SocketIO0A10AckManagerV", "AckCallback"]
+- ["8SocketIO0A10AckManagerV", "DispatchQueue"]
+- ["8SocketIO0A10AckManagerV", "DispatchSemaphore"]
+- ["8SocketIO0A10AckManagerV", "Int"]
+- ["8SocketIO0A10AckManagerV", "Set"]
+- ["8SocketIO0A10AckManagerV", "SocketAck"]
+- !private ["8SocketIO0A10AckManagerV", "SocketAckStatus"]
+- !private ["8SocketIO0A10AckManagerV", "ackSemaphore"]
+- !private ["8SocketIO0A10AckManagerV", "acks"]
+- ["8SocketIO0A10AckManagerV", "addAck"]
+- ["8SocketIO0A10AckManagerV", "executeAck"]
+- ["8SocketIO0A10AckManagerV", "init"]
+- ["8SocketIO0A10AckManagerV", "timeoutAck"]
+- ["8SocketIO0A9AckStatusO", "RawValue"]
+- ["8SocketIO0A9AckStatusO", "_Default_RawValue"]
+- !private ["8SocketIO0A9AckStatusO", "_findStringSwitchCase"]
+- ["8SocketIO0A9AckStatusO", "deinit"]
+- ["8SocketIO0A9AckStatusO", "hashValue"]
+- ["8SocketIO0A9AckStatusO", "init"]
+- ["8SocketIO0A9AckStatusO", "noAck"]
+- ["8SocketIO0A9AckStatusO", "rawValue"]
+- !private ["8SocketIO0A4DataP", "_getBuiltinLogicValue"]
+- !private ["8SocketIO0A4DataP", "hashValue"]
+- ["8SocketIO0A4DataP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s10StrideableP", "hashValue"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s18_BitwiseOperationsP", "hashValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "hashValue"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "signal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "wait"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "hashValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- "So17DispatchSemaphoreC"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "s8HashableP"
+- !private "Si"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s7NumericP"
+- "So9OS_objectC"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "s8SequenceP"
+- "s3SetV"
+- "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- "8SocketIO0A10AckManagerV"
+- "8SocketIO0A9AckStatusO"
+- "8SocketIO0A4DataP"
+- !private "s12StaticStringV"
+- !private "s10StrideableP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s18_BitwiseOperationsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/StarscreamSocketIO.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/Target Support Files/StarscreamSocketIO/StarscreamSocketIO-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Pods.build/Debug-iphoneos/Socket.IO-Client-Swift.build/unextended-module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/StarscreamSocketIO/zlib/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Pods.build/Debug-iphoneos/StarscreamSocketIO.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "bf6d0032cbffcc71bc1a6b2d0e63d2df"

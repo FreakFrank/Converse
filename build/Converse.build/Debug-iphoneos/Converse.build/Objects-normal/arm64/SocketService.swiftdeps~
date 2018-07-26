@@ -1,0 +1,383 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketService"
+provides-nominal:
+- "8Converse13SocketServiceC"
+provides-member:
+- ["8Converse13SocketServiceC", ""]
+provides-dynamic-lookup:
+- "addChannel"
+- "addMessage"
+- "establishConnection"
+- "getTypingUsers"
+- "instance"
+- "socket"
+- "terminateConnection"
+- "updateChannels"
+depends-top-level:
+- "BASE_URL"
+- !private "BooleanLiteralType"
+- !private "CastingPrecedence"
+- !private "Channel"
+- "CompletionHandler"
+- "Message"
+- !private "MessagesService"
+- "NSObject"
+- "SocketIOClient"
+- "SocketService"
+- "String"
+- "URL"
+- !private "UserDataService"
+- "Void"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- ["s7CVarArgP", "BASE_URL"]
+- !private ["s7CVarArgP", "Channel"]
+- !private ["s7CVarArgP", "Message"]
+- !private ["s7CVarArgP", "MessagesService"]
+- ["s7CVarArgP", "SocketIOClient"]
+- ["s7CVarArgP", "SocketService"]
+- ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "UserDataService"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "connect"]
+- !private ["s7CVarArgP", "disconnect"]
+- !private ["s7CVarArgP", "emit"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "on"]
+- !private ["s7CVarArgP", "socket"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["8Converse7ChannelV", "init"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "BASE_URL"]
+- !private ["s28CustomDebugStringConvertibleP", "Channel"]
+- !private ["s28CustomDebugStringConvertibleP", "Message"]
+- !private ["s28CustomDebugStringConvertibleP", "MessagesService"]
+- ["s28CustomDebugStringConvertibleP", "SocketIOClient"]
+- ["s28CustomDebugStringConvertibleP", "SocketService"]
+- ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDataService"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "connect"]
+- !private ["s28CustomDebugStringConvertibleP", "disconnect"]
+- !private ["s28CustomDebugStringConvertibleP", "emit"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "on"]
+- !private ["s28CustomDebugStringConvertibleP", "socket"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "BASE_URL"]
+- !private ["s23CustomStringConvertibleP", "Channel"]
+- !private ["s23CustomStringConvertibleP", "Message"]
+- !private ["s23CustomStringConvertibleP", "MessagesService"]
+- ["s23CustomStringConvertibleP", "SocketIOClient"]
+- ["s23CustomStringConvertibleP", "SocketService"]
+- ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "UserDataService"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "connect"]
+- !private ["s23CustomStringConvertibleP", "disconnect"]
+- !private ["s23CustomStringConvertibleP", "emit"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "on"]
+- !private ["s23CustomStringConvertibleP", "socket"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "append"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "append"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "BASE_URL"]
+- !private ["s9EquatableP", "Channel"]
+- !private ["s9EquatableP", "Message"]
+- !private ["s9EquatableP", "MessagesService"]
+- ["s9EquatableP", "SocketIOClient"]
+- ["s9EquatableP", "SocketService"]
+- ["s9EquatableP", "URL"]
+- !private ["s9EquatableP", "UserDataService"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "connect"]
+- !private ["s9EquatableP", "disconnect"]
+- !private ["s9EquatableP", "emit"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "on"]
+- !private ["s9EquatableP", "socket"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "BASE_URL"]
+- !private ["s8HashableP", "Channel"]
+- !private ["s8HashableP", "Message"]
+- !private ["s8HashableP", "MessagesService"]
+- ["s8HashableP", "SocketIOClient"]
+- ["s8HashableP", "SocketService"]
+- ["s8HashableP", "URL"]
+- !private ["s8HashableP", "UserDataService"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "connect"]
+- !private ["s8HashableP", "disconnect"]
+- !private ["s8HashableP", "emit"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "on"]
+- !private ["s8HashableP", "socket"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["8Converse7MessageV", "init"]
+- !private ["8Converse15MessagesServiceC", "channels"]
+- !private ["8Converse15MessagesServiceC", "instance"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "subscript"]
+- ["So8NSObjectC", "BASE_URL"]
+- !private ["So8NSObjectC", "Channel"]
+- ["So8NSObjectC", "CompletionHandler"]
+- ["So8NSObjectC", "Message"]
+- !private ["So8NSObjectC", "MessagesService"]
+- ["So8NSObjectC", "SocketIOClient"]
+- ["So8NSObjectC", "SocketService"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "UserDataService"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "addChannel"]
+- ["So8NSObjectC", "addMessage"]
+- !private ["So8NSObjectC", "connect"]
+- !private ["So8NSObjectC", "disconnect"]
+- !private ["So8NSObjectC", "emit"]
+- ["So8NSObjectC", "establishConnection"]
+- ["So8NSObjectC", "getMessage"]
+- ["So8NSObjectC", "getTypingUsers"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "instance"]
+- !private ["So8NSObjectC", "on"]
+- ["So8NSObjectC", "socket"]
+- ["So8NSObjectC", "terminateConnection"]
+- ["So8NSObjectC", "updateChannels"]
+- ["So16NSObjectProtocolP", "BASE_URL"]
+- !private ["So16NSObjectProtocolP", "Channel"]
+- !private ["So16NSObjectProtocolP", "Message"]
+- !private ["So16NSObjectProtocolP", "MessagesService"]
+- ["So16NSObjectProtocolP", "SocketIOClient"]
+- ["So16NSObjectProtocolP", "SocketService"]
+- ["So16NSObjectProtocolP", "URL"]
+- !private ["So16NSObjectProtocolP", "UserDataService"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "connect"]
+- !private ["So16NSObjectProtocolP", "disconnect"]
+- !private ["So16NSObjectProtocolP", "emit"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "on"]
+- !private ["So16NSObjectProtocolP", "socket"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["8SocketIO0A4DataP", "append"]
+- !private ["8SocketIO0A4DataP", "init"]
+- !private ["8SocketIO0A4DataP", "subscript"]
+- !private ["8SocketIO0A12EngineClientP", "connect"]
+- !private ["8SocketIO0A12EngineClientP", "disconnect"]
+- !private ["8SocketIO0A12EngineClientP", "emit"]
+- ["8SocketIO0A12EngineClientP", "init"]
+- !private ["8SocketIO0A12EngineClientP", "on"]
+- !private ["8SocketIO0A8IOClientC", "connect"]
+- !private ["8SocketIO0A8IOClientC", "disconnect"]
+- !private ["8SocketIO0A8IOClientC", "emit"]
+- ["8SocketIO0A8IOClientC", "init"]
+- !private ["8SocketIO0A8IOClientC", "on"]
+- !private ["8SocketIO0A12IOClientSpecP", "connect"]
+- !private ["8SocketIO0A12IOClientSpecP", "disconnect"]
+- !private ["8SocketIO0A12IOClientSpecP", "emit"]
+- ["8SocketIO0A12IOClientSpecP", "init"]
+- !private ["8SocketIO0A12IOClientSpecP", "on"]
+- !private ["8SocketIO0A8ParsableP", "connect"]
+- !private ["8SocketIO0A8ParsableP", "disconnect"]
+- !private ["8SocketIO0A8ParsableP", "emit"]
+- ["8SocketIO0A8ParsableP", "init"]
+- !private ["8SocketIO0A8ParsableP", "on"]
+- ["8Converse13SocketServiceC", "BASE_URL"]
+- !private ["8Converse13SocketServiceC", "Channel"]
+- ["8Converse13SocketServiceC", "CompletionHandler"]
+- ["8Converse13SocketServiceC", "Message"]
+- !private ["8Converse13SocketServiceC", "MessagesService"]
+- ["8Converse13SocketServiceC", "SocketIOClient"]
+- ["8Converse13SocketServiceC", "SocketService"]
+- ["8Converse13SocketServiceC", "String"]
+- ["8Converse13SocketServiceC", "URL"]
+- !private ["8Converse13SocketServiceC", "UserDataService"]
+- ["8Converse13SocketServiceC", "Void"]
+- ["8Converse13SocketServiceC", "addChannel"]
+- ["8Converse13SocketServiceC", "addMessage"]
+- ["8Converse13SocketServiceC", "deinit"]
+- ["8Converse13SocketServiceC", "establishConnection"]
+- ["8Converse13SocketServiceC", "getMessage"]
+- ["8Converse13SocketServiceC", "getTypingUsers"]
+- ["8Converse13SocketServiceC", "init"]
+- ["8Converse13SocketServiceC", "instance"]
+- ["8Converse13SocketServiceC", "socket"]
+- ["8Converse13SocketServiceC", "terminateConnection"]
+- ["8Converse13SocketServiceC", "updateChannels"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["10Foundation3URLV", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["8Converse15UserDataServiceC", "avatarColor"]
+- !private ["8Converse15UserDataServiceC", "avatarName"]
+- !private ["8Converse15UserDataServiceC", "instance"]
+- !private ["8Converse15UserDataServiceC", "name"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "BASE_URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Channel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Message"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MessagesService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SocketIOClient"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SocketService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDataService"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disconnect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "emit"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "on"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "socket"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- !private "8Converse7ChannelV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "8Converse7MessageV"
+- !private "8Converse15MessagesServiceC"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "8SocketIO0A4DataP"
+- "8SocketIO0A12EngineClientP"
+- "8SocketIO0A8IOClientC"
+- "8SocketIO0A12IOClientSpecP"
+- "8SocketIO0A8ParsableP"
+- "8Converse13SocketServiceC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "10Foundation3URLV"
+- "9Alamofire14URLConvertibleP"
+- !private "8Converse15UserDataServiceC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/arm64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/StarscreamSocketIO.swiftmodule/arm64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Converse-Bridging-Header.h"
+- "/Users/kareemismail/XCodeProjects/Converse/SWRevealViewController.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/StarscreamSocketIO/zlib/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c553e0bbacb9a32e13ae848e9a2f90b1"

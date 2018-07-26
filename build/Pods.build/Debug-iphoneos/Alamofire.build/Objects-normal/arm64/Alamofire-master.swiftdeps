@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "3c69de4c895e1431ef702a447c72ec5e"
+build_time: [1531821400, 291204000]
+inputs:
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/AFError.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/Alamofire.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/MultipartFormData.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/Notifications.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/ParameterEncoding.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/Request.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/Response.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/ResponseSerialization.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/Result.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/SessionDelegate.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/SessionManager.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/TaskDelegate.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/Timeline.swift": [1502674429, 0]
+  "/Users/kareemismail/XCodeProjects/Converse/Pods/Alamofire/Source/Validation.swift": [1502674429, 0]

@@ -1,0 +1,204 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SocketClientManager"
+provides-nominal:
+- "8SocketIO0A13ClientManagerC"
+provides-member:
+- ["8SocketIO0A13ClientManagerC", ""]
+provides-dynamic-lookup:
+- "addSocket"
+- "removeSocket"
+- "removeSockets"
+- "sharedManager"
+- "subscript"
+depends-top-level:
+- !private "==="
+- "AssignmentPrecedence"
+- "NSObject"
+- "SocketClientManager"
+- "SocketIOClient"
+- "String"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "SocketClientManager"]
+- ["s7CVarArgP", "SocketIOClient"]
+- ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "removeValue"]
+- !private ["s7CVarArgP", "sockets"]
+- !private ["s7CVarArgP", "subscript"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "removeAll"]
+- !private ["s10CollectionP", "removeValue"]
+- !private ["s10CollectionP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "SocketClientManager"]
+- ["s28CustomDebugStringConvertibleP", "SocketIOClient"]
+- ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "sockets"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "SocketClientManager"]
+- ["s23CustomStringConvertibleP", "SocketIOClient"]
+- ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- !private ["s23CustomStringConvertibleP", "sockets"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "removeAll"]
+- !private ["s9DecodableP", "removeValue"]
+- !private ["s9DecodableP", "subscript"]
+- ["s10DictionaryV", "init"]
+- !private ["s10DictionaryV", "removeAll"]
+- !private ["s10DictionaryV", "removeValue"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "removeAll"]
+- !private ["s9EncodableP", "removeValue"]
+- !private ["s9EncodableP", "subscript"]
+- ["s9EquatableP", "SocketClientManager"]
+- ["s9EquatableP", "SocketIOClient"]
+- ["s9EquatableP", "String"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "removeAll"]
+- !private ["s9EquatableP", "removeValue"]
+- !private ["s9EquatableP", "sockets"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeAll"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s8HashableP", "SocketClientManager"]
+- ["s8HashableP", "SocketIOClient"]
+- ["s8HashableP", "String"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "sockets"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["So8NSObjectC", "SocketClientManager"]
+- ["So8NSObjectC", "SocketIOClient"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "addSocket"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "removeSocket"]
+- ["So8NSObjectC", "removeSockets"]
+- ["So8NSObjectC", "sharedManager"]
+- ["So8NSObjectC", "sockets"]
+- ["So8NSObjectC", "subscript"]
+- ["So16NSObjectProtocolP", "SocketClientManager"]
+- ["So16NSObjectProtocolP", "SocketIOClient"]
+- ["So16NSObjectProtocolP", "String"]
+- ["So16NSObjectProtocolP", ""]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "sockets"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "removeAll"]
+- !private ["s8SequenceP", "removeValue"]
+- !private ["s8SequenceP", "subscript"]
+- ["8SocketIO0A13ClientManagerC", "SocketClientManager"]
+- ["8SocketIO0A13ClientManagerC", "SocketIOClient"]
+- ["8SocketIO0A13ClientManagerC", "String"]
+- ["8SocketIO0A13ClientManagerC", "addSocket"]
+- ["8SocketIO0A13ClientManagerC", "deinit"]
+- ["8SocketIO0A13ClientManagerC", "init"]
+- ["8SocketIO0A13ClientManagerC", "removeSocket"]
+- ["8SocketIO0A13ClientManagerC", "removeSockets"]
+- ["8SocketIO0A13ClientManagerC", "sharedManager"]
+- !private ["8SocketIO0A13ClientManagerC", "sockets"]
+- ["8SocketIO0A13ClientManagerC", "subscript"]
+- !private ["8SocketIO0A4DataP", "_getBuiltinLogicValue"]
+- ["8SocketIO0A4DataP", "init"]
+- !private ["8SocketIO0A4DataP", "removeAll"]
+- !private ["8SocketIO0A4DataP", "removeValue"]
+- !private ["8SocketIO0A4DataP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SocketClientManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SocketIOClient"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sockets"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "s8SequenceP"
+- "8SocketIO0A13ClientManagerC"
+- "8SocketIO0A4DataP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/StarscreamSocketIO.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/Target Support Files/StarscreamSocketIO/StarscreamSocketIO-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/Target Support Files/Socket.IO-Client-Swift/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Pods.build/Debug-iphoneos/Socket.IO-Client-Swift.build/unextended-module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/StarscreamSocketIO/zlib/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Pods.build/Debug-iphoneos/StarscreamSocketIO.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "3e35449c155106dfbd1e8ed3bbb508d1"

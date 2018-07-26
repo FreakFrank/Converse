@@ -1,10 +1,8 @@
-//
 //  AuthService.swift
 //  Converse
 //
 //  Created by Kareem Ismail on 8/22/17.
 //  Copyright © 2017 Whatever. All rights reserved.
-//
 
 import Foundation
 import Alamofire
@@ -165,18 +163,4 @@ class AuthService {
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
 }

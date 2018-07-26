@@ -1,0 +1,11 @@
+framework module StarscreamSocketIO {
+  umbrella header "StarscreamSocketIO-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module StarscreamSocketIO.Swift {
+    header "StarscreamSocketIO-Swift.h"
+    requires objc
+}

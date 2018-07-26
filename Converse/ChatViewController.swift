@@ -10,6 +10,8 @@ import UIKit
 
 class ChatViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    @IBOutlet weak var smackImage: UIImageView!
+    @IBOutlet weak var welcomeMsg: UILabel!
     @IBOutlet weak var burgerButton: UIButton!
     @IBOutlet weak var converseLabel: UILabel!
     @IBOutlet weak var messageTextField: UITextField!
@@ -63,6 +65,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
             }
         }
         if AuthService.instance.isLoggedIn {
+            messageTextField.isHidden = false
             AuthService.instance.findUserByMail(completion: { (success) in
                 if success {
                     NotificationCenter.default.post(name: NOTIFY_USER_DATA_CHANGE, object: nil)
@@ -70,6 +73,12 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
                 MessagesService.instance.getAllChannels(completion: { (success) in
                 })
             })
+        }
+        else {
+            messageTextField.isHidden = true
+            welcomeMsg.isHidden = false
+            smackImage.isHidden = false
+            messagesTabelView.isHidden = true
         }
     }
     @IBAction func messageEditingChanged(_ sender: Any) {
@@ -87,10 +96,16 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     @objc func userDataDidChange(){
         if AuthService.instance.isLoggedIn {
+            messageTextField.isHidden = false
+            welcomeMsg.isHidden = true
+            smackImage.isHidden = true
             onLoginGetMessages()
         }
         else {
-            converseLabel.text = "Please Login"
+            messageTextField.isHidden = true
+            welcomeMsg.isHidden = false
+            smackImage.isHidden = false
+            converseLabel.text = "Converse"
         }
         messagesTabelView.reloadData()
     }

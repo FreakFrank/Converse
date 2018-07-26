@@ -39,6 +39,10 @@ let TO_LOGIN = "toLogin"
 let TO_CREATE_ACCOUNT = "toCreateAccount"
 let UNWIND_TO_CHANNEL = "toChannel"
 let TO_AVATAR_PICKER = "toAvatarPicker"
+let TO_SETTINGS = "toSettings"
+let TO_ABOUT_US = "toAboutUs"
+let TO_TERMS = "toTerms"
+let TO_ABOUT_CONVERSE = "toAboutConverse"
 
 // User defaults 
 

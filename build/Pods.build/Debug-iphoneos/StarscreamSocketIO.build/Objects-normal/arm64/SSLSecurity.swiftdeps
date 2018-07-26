@@ -1,0 +1,665 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SSLTrustValidator"
+- "SSLCert"
+- "SSLSecurity"
+provides-nominal:
+- "18StarscreamSocketIO17SSLTrustValidatorP"
+- "18StarscreamSocketIO7SSLCertC"
+- "18StarscreamSocketIO11SSLSecurityC"
+provides-member:
+- ["18StarscreamSocketIO17SSLTrustValidatorP", ""]
+- ["18StarscreamSocketIO7SSLCertC", ""]
+- ["18StarscreamSocketIO11SSLSecurityC", ""]
+provides-dynamic-lookup:
+- "certData"
+- "certificateChain"
+- "certificates"
+- "extractPublicKey"
+- "isReady"
+- "isValid"
+- "key"
+- "usePublicKeys"
+- "validatedDN"
+depends-top-level:
+- !private "!"
+- !private "+="
+- !private "..<"
+- !private "=="
+- !private ">"
+- !private "AnyObject"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "Bundle"
+- !private "CFData"
+- "CastingPrecedence"
+- "Data"
+- !private "DispatchQueue"
+- !private "Int"
+- !private "NSArray"
+- !private "NSData"
+- "NSObject"
+- !private "NSString"
+- "SSLCert"
+- "SSLSecurity"
+- "SSLTrustValidator"
+- "SecCertificate"
+- !private "SecCertificateCopyData"
+- !private "SecCertificateCreateWithData"
+- "SecKey"
+- "SecPolicy"
+- !private "SecPolicyCreateBasicX509"
+- !private "SecPolicyCreateSSL"
+- "SecTrust"
+- !private "SecTrustCopyPublicKey"
+- !private "SecTrustCreateWithCertificates"
+- !private "SecTrustEvaluate"
+- !private "SecTrustGetCertificateAtIndex"
+- !private "SecTrustGetCertificateCount"
+- !private "SecTrustResultType"
+- !private "SecTrustSetAnchorCertificates"
+- !private "SecTrustSetPolicies"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "usleep"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "reduce"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "reduce"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So6BundleC", "main"]
+- !private ["So6BundleC", "paths"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "Data"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "NSData"]
+- !private ["s7CVarArgP", "SSLCert"]
+- !private ["s7CVarArgP", "SecCertificate"]
+- !private ["s7CVarArgP", "SecCertificateCopyData"]
+- !private ["s7CVarArgP", "SecCertificateCreateWithData"]
+- !private ["s7CVarArgP", "SecKey"]
+- !private ["s7CVarArgP", "SecPolicyCreateBasicX509"]
+- !private ["s7CVarArgP", "SecPolicyCreateSSL"]
+- !private ["s7CVarArgP", "SecTrustCopyPublicKey"]
+- !private ["s7CVarArgP", "SecTrustCreateWithCertificates"]
+- !private ["s7CVarArgP", "SecTrustEvaluate"]
+- !private ["s7CVarArgP", "SecTrustGetCertificateAtIndex"]
+- !private ["s7CVarArgP", "SecTrustGetCertificateCount"]
+- !private ["s7CVarArgP", "SecTrustSetAnchorCertificates"]
+- !private ["s7CVarArgP", "SecTrustSetPolicies"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "certData"]
+- !private ["s7CVarArgP", "certificateChain"]
+- !private ["s7CVarArgP", "certificates"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "extractPublicKey"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isReady"]
+- ["s7CVarArgP", "isValid"]
+- !private ["s7CVarArgP", "key"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "paths"]
+- !private ["s7CVarArgP", "pubKeys"]
+- !private ["s7CVarArgP", "publicKeyChain"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "usePublicKeys"]
+- !private ["s7CVarArgP", "usleep"]
+- !private ["s7CVarArgP", "validatedDN"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "reduce"]
+- !private ["s10ComparableP", "init"]
+- !private ["s14CountableRangeV", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "NSData"]
+- !private ["s28CustomDebugStringConvertibleP", "SSLCert"]
+- !private ["s28CustomDebugStringConvertibleP", "SecCertificate"]
+- !private ["s28CustomDebugStringConvertibleP", "SecCertificateCopyData"]
+- !private ["s28CustomDebugStringConvertibleP", "SecCertificateCreateWithData"]
+- !private ["s28CustomDebugStringConvertibleP", "SecKey"]
+- !private ["s28CustomDebugStringConvertibleP", "SecPolicyCreateBasicX509"]
+- !private ["s28CustomDebugStringConvertibleP", "SecPolicyCreateSSL"]
+- !private ["s28CustomDebugStringConvertibleP", "SecTrustCopyPublicKey"]
+- !private ["s28CustomDebugStringConvertibleP", "SecTrustCreateWithCertificates"]
+- !private ["s28CustomDebugStringConvertibleP", "SecTrustEvaluate"]
+- !private ["s28CustomDebugStringConvertibleP", "SecTrustGetCertificateAtIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "SecTrustGetCertificateCount"]
+- !private ["s28CustomDebugStringConvertibleP", "SecTrustSetAnchorCertificates"]
+- !private ["s28CustomDebugStringConvertibleP", "SecTrustSetPolicies"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "certData"]
+- !private ["s28CustomDebugStringConvertibleP", "certificateChain"]
+- !private ["s28CustomDebugStringConvertibleP", "certificates"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "extractPublicKey"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isReady"]
+- ["s28CustomDebugStringConvertibleP", "isValid"]
+- !private ["s28CustomDebugStringConvertibleP", "key"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "paths"]
+- !private ["s28CustomDebugStringConvertibleP", "pubKeys"]
+- !private ["s28CustomDebugStringConvertibleP", "publicKeyChain"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "usePublicKeys"]
+- !private ["s28CustomDebugStringConvertibleP", "usleep"]
+- !private ["s28CustomDebugStringConvertibleP", "validatedDN"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "NSData"]
+- !private ["s23CustomStringConvertibleP", "SSLCert"]
+- !private ["s23CustomStringConvertibleP", "SecCertificate"]
+- !private ["s23CustomStringConvertibleP", "SecCertificateCopyData"]
+- !private ["s23CustomStringConvertibleP", "SecCertificateCreateWithData"]
+- !private ["s23CustomStringConvertibleP", "SecKey"]
+- !private ["s23CustomStringConvertibleP", "SecPolicyCreateBasicX509"]
+- !private ["s23CustomStringConvertibleP", "SecPolicyCreateSSL"]
+- !private ["s23CustomStringConvertibleP", "SecTrustCopyPublicKey"]
+- !private ["s23CustomStringConvertibleP", "SecTrustCreateWithCertificates"]
+- !private ["s23CustomStringConvertibleP", "SecTrustEvaluate"]
+- !private ["s23CustomStringConvertibleP", "SecTrustGetCertificateAtIndex"]
+- !private ["s23CustomStringConvertibleP", "SecTrustGetCertificateCount"]
+- !private ["s23CustomStringConvertibleP", "SecTrustSetAnchorCertificates"]
+- !private ["s23CustomStringConvertibleP", "SecTrustSetPolicies"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "certData"]
+- !private ["s23CustomStringConvertibleP", "certificateChain"]
+- !private ["s23CustomStringConvertibleP", "certificates"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "extractPublicKey"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isReady"]
+- ["s23CustomStringConvertibleP", "isValid"]
+- !private ["s23CustomStringConvertibleP", "key"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "paths"]
+- !private ["s23CustomStringConvertibleP", "pubKeys"]
+- !private ["s23CustomStringConvertibleP", "publicKeyChain"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "usePublicKeys"]
+- !private ["s23CustomStringConvertibleP", "usleep"]
+- !private ["s23CustomStringConvertibleP", "validatedDN"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "reduce"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "global"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "global"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "reduce"]
+- !private ["s9EquatableP", "Bundle"]
+- !private ["s9EquatableP", "Data"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "NSData"]
+- !private ["s9EquatableP", "SSLCert"]
+- !private ["s9EquatableP", "SecCertificate"]
+- !private ["s9EquatableP", "SecCertificateCopyData"]
+- !private ["s9EquatableP", "SecCertificateCreateWithData"]
+- !private ["s9EquatableP", "SecKey"]
+- !private ["s9EquatableP", "SecPolicyCreateBasicX509"]
+- !private ["s9EquatableP", "SecPolicyCreateSSL"]
+- !private ["s9EquatableP", "SecTrustCopyPublicKey"]
+- !private ["s9EquatableP", "SecTrustCreateWithCertificates"]
+- !private ["s9EquatableP", "SecTrustEvaluate"]
+- !private ["s9EquatableP", "SecTrustGetCertificateAtIndex"]
+- !private ["s9EquatableP", "SecTrustGetCertificateCount"]
+- !private ["s9EquatableP", "SecTrustSetAnchorCertificates"]
+- !private ["s9EquatableP", "SecTrustSetPolicies"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "certData"]
+- !private ["s9EquatableP", "certificateChain"]
+- !private ["s9EquatableP", "certificates"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "extractPublicKey"]
+- !private ["s9EquatableP", "global"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isReady"]
+- ["s9EquatableP", "isValid"]
+- !private ["s9EquatableP", "key"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "paths"]
+- !private ["s9EquatableP", "proceed"]
+- !private ["s9EquatableP", "pubKeys"]
+- !private ["s9EquatableP", "publicKeyChain"]
+- !private ["s9EquatableP", "reduce"]
+- !private ["s9EquatableP", "unspecified"]
+- !private ["s9EquatableP", "usePublicKeys"]
+- !private ["s9EquatableP", "usleep"]
+- !private ["s9EquatableP", "validatedDN"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "Bundle"]
+- !private ["s8HashableP", "Data"]
+- !private ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "NSData"]
+- !private ["s8HashableP", "SSLCert"]
+- !private ["s8HashableP", "SecCertificate"]
+- !private ["s8HashableP", "SecCertificateCopyData"]
+- !private ["s8HashableP", "SecCertificateCreateWithData"]
+- !private ["s8HashableP", "SecKey"]
+- !private ["s8HashableP", "SecPolicyCreateBasicX509"]
+- !private ["s8HashableP", "SecPolicyCreateSSL"]
+- !private ["s8HashableP", "SecTrustCopyPublicKey"]
+- !private ["s8HashableP", "SecTrustCreateWithCertificates"]
+- !private ["s8HashableP", "SecTrustEvaluate"]
+- !private ["s8HashableP", "SecTrustGetCertificateAtIndex"]
+- !private ["s8HashableP", "SecTrustGetCertificateCount"]
+- !private ["s8HashableP", "SecTrustSetAnchorCertificates"]
+- !private ["s8HashableP", "SecTrustSetPolicies"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "certData"]
+- !private ["s8HashableP", "certificateChain"]
+- !private ["s8HashableP", "certificates"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "extractPublicKey"]
+- !private ["s8HashableP", "global"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "isReady"]
+- ["s8HashableP", "isValid"]
+- !private ["s8HashableP", "key"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "paths"]
+- !private ["s8HashableP", "proceed"]
+- !private ["s8HashableP", "pubKeys"]
+- !private ["s8HashableP", "publicKeyChain"]
+- !private ["s8HashableP", "unspecified"]
+- !private ["s8HashableP", "usePublicKeys"]
+- !private ["s8HashableP", "usleep"]
+- !private ["s8HashableP", "validatedDN"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "reduce"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So6NSDataC", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Bundle"]
+- !private ["So8NSObjectC", "CFData"]
+- ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NSArray"]
+- !private ["So8NSObjectC", "NSData"]
+- !private ["So8NSObjectC", "NSString"]
+- ["So8NSObjectC", "SSLCert"]
+- ["So8NSObjectC", "SecCertificate"]
+- !private ["So8NSObjectC", "SecCertificateCopyData"]
+- !private ["So8NSObjectC", "SecCertificateCreateWithData"]
+- ["So8NSObjectC", "SecKey"]
+- ["So8NSObjectC", "SecPolicy"]
+- !private ["So8NSObjectC", "SecPolicyCreateBasicX509"]
+- !private ["So8NSObjectC", "SecPolicyCreateSSL"]
+- ["So8NSObjectC", "SecTrust"]
+- !private ["So8NSObjectC", "SecTrustCopyPublicKey"]
+- !private ["So8NSObjectC", "SecTrustCreateWithCertificates"]
+- !private ["So8NSObjectC", "SecTrustEvaluate"]
+- !private ["So8NSObjectC", "SecTrustGetCertificateAtIndex"]
+- !private ["So8NSObjectC", "SecTrustGetCertificateCount"]
+- !private ["So8NSObjectC", "SecTrustResultType"]
+- !private ["So8NSObjectC", "SecTrustSetAnchorCertificates"]
+- !private ["So8NSObjectC", "SecTrustSetPolicies"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "async"]
+- ["So8NSObjectC", "certData"]
+- ["So8NSObjectC", "certificateChain"]
+- ["So8NSObjectC", "certificates"]
+- ["So8NSObjectC", "extractPublicKey"]
+- !private ["So8NSObjectC", "global"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isReady"]
+- ["So8NSObjectC", "isValid"]
+- ["So8NSObjectC", "key"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "paths"]
+- ["So8NSObjectC", "pubKeys"]
+- ["So8NSObjectC", "publicKeyChain"]
+- ["So8NSObjectC", "usePublicKeys"]
+- !private ["So8NSObjectC", "usleep"]
+- ["So8NSObjectC", "validatedDN"]
+- !private ["So16NSObjectProtocolP", "Bundle"]
+- !private ["So16NSObjectProtocolP", "Data"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "NSData"]
+- !private ["So16NSObjectProtocolP", "SSLCert"]
+- !private ["So16NSObjectProtocolP", "SecCertificate"]
+- !private ["So16NSObjectProtocolP", "SecCertificateCopyData"]
+- !private ["So16NSObjectProtocolP", "SecCertificateCreateWithData"]
+- !private ["So16NSObjectProtocolP", "SecKey"]
+- !private ["So16NSObjectProtocolP", "SecPolicyCreateBasicX509"]
+- !private ["So16NSObjectProtocolP", "SecPolicyCreateSSL"]
+- !private ["So16NSObjectProtocolP", "SecTrustCopyPublicKey"]
+- !private ["So16NSObjectProtocolP", "SecTrustCreateWithCertificates"]
+- !private ["So16NSObjectProtocolP", "SecTrustEvaluate"]
+- !private ["So16NSObjectProtocolP", "SecTrustGetCertificateAtIndex"]
+- !private ["So16NSObjectProtocolP", "SecTrustGetCertificateCount"]
+- !private ["So16NSObjectProtocolP", "SecTrustSetAnchorCertificates"]
+- !private ["So16NSObjectProtocolP", "SecTrustSetPolicies"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "certData"]
+- !private ["So16NSObjectProtocolP", "certificateChain"]
+- !private ["So16NSObjectProtocolP", "certificates"]
+- !private ["So16NSObjectProtocolP", "extractPublicKey"]
+- !private ["So16NSObjectProtocolP", "global"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "isReady"]
+- ["So16NSObjectProtocolP", "isValid"]
+- !private ["So16NSObjectProtocolP", "key"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "paths"]
+- !private ["So16NSObjectProtocolP", "pubKeys"]
+- !private ["So16NSObjectProtocolP", "publicKeyChain"]
+- !private ["So16NSObjectProtocolP", "usePublicKeys"]
+- !private ["So16NSObjectProtocolP", "usleep"]
+- !private ["So16NSObjectProtocolP", "validatedDN"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "default"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "reduce"]
+- !private ["s5RangeV", "reduce"]
+- !private ["s15RangeExpressionP", "reduce"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "reduce"]
+- !private ["s16RawRepresentableP", "proceed"]
+- !private ["s16RawRepresentableP", "unspecified"]
+- ["18StarscreamSocketIO7SSLCertC", "Data"]
+- ["18StarscreamSocketIO7SSLCertC", "SecKey"]
+- ["18StarscreamSocketIO7SSLCertC", "certData"]
+- ["18StarscreamSocketIO7SSLCertC", "deinit"]
+- ["18StarscreamSocketIO7SSLCertC", "init"]
+- ["18StarscreamSocketIO7SSLCertC", "key"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "AnyObject"]
+- ["18StarscreamSocketIO11SSLSecurityC", "Bool"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "Bundle"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "CFData"]
+- ["18StarscreamSocketIO11SSLSecurityC", "Data"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "DispatchQueue"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "Int"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "NSArray"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "NSData"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "NSString"]
+- ["18StarscreamSocketIO11SSLSecurityC", "SSLCert"]
+- ["18StarscreamSocketIO11SSLSecurityC", "SecCertificate"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "SecCertificateCopyData"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "SecCertificateCreateWithData"]
+- ["18StarscreamSocketIO11SSLSecurityC", "SecKey"]
+- ["18StarscreamSocketIO11SSLSecurityC", "SecPolicy"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "SecPolicyCreateBasicX509"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "SecPolicyCreateSSL"]
+- ["18StarscreamSocketIO11SSLSecurityC", "SecTrust"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "SecTrustCopyPublicKey"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "SecTrustCreateWithCertificates"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "SecTrustEvaluate"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "SecTrustGetCertificateAtIndex"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "SecTrustGetCertificateCount"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "SecTrustResultType"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "SecTrustSetAnchorCertificates"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "SecTrustSetPolicies"]
+- ["18StarscreamSocketIO11SSLSecurityC", "String"]
+- ["18StarscreamSocketIO11SSLSecurityC", "certificateChain"]
+- ["18StarscreamSocketIO11SSLSecurityC", "certificates"]
+- ["18StarscreamSocketIO11SSLSecurityC", "deinit"]
+- ["18StarscreamSocketIO11SSLSecurityC", "extractPublicKey"]
+- ["18StarscreamSocketIO11SSLSecurityC", "init"]
+- ["18StarscreamSocketIO11SSLSecurityC", "isReady"]
+- ["18StarscreamSocketIO11SSLSecurityC", "isValid"]
+- ["18StarscreamSocketIO11SSLSecurityC", "pubKeys"]
+- ["18StarscreamSocketIO11SSLSecurityC", "publicKeyChain"]
+- ["18StarscreamSocketIO11SSLSecurityC", "usePublicKeys"]
+- !private ["18StarscreamSocketIO11SSLSecurityC", "usleep"]
+- ["18StarscreamSocketIO11SSLSecurityC", "validatedDN"]
+- ["18StarscreamSocketIO17SSLTrustValidatorP", "Bool"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "Bundle"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "Data"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "DispatchQueue"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "NSData"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "SSLCert"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "SecCertificate"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "SecCertificateCopyData"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "SecCertificateCreateWithData"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "SecKey"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "SecPolicyCreateBasicX509"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "SecPolicyCreateSSL"]
+- ["18StarscreamSocketIO17SSLTrustValidatorP", "SecTrust"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "SecTrustCopyPublicKey"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "SecTrustCreateWithCertificates"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "SecTrustEvaluate"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "SecTrustGetCertificateAtIndex"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "SecTrustGetCertificateCount"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "SecTrustSetAnchorCertificates"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "SecTrustSetPolicies"]
+- ["18StarscreamSocketIO17SSLTrustValidatorP", "String"]
+- ["18StarscreamSocketIO17SSLTrustValidatorP", ""]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "certificateChain"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "certificates"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "extractPublicKey"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "init"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "isReady"]
+- ["18StarscreamSocketIO17SSLTrustValidatorP", "isValid"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "pubKeys"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "publicKeyChain"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "usePublicKeys"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "usleep"]
+- !private ["18StarscreamSocketIO17SSLTrustValidatorP", "validatedDN"]
+- !private ["SC18SecTrustResultTypeO", "proceed"]
+- !private ["SC18SecTrustResultTypeO", "unspecified"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "reduce"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SSLCert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SecCertificate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SecCertificateCopyData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SecCertificateCreateWithData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SecKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SecPolicyCreateBasicX509"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SecPolicyCreateSSL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SecTrustCopyPublicKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SecTrustCreateWithCertificates"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SecTrustEvaluate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SecTrustGetCertificateAtIndex"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SecTrustGetCertificateCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SecTrustSetAnchorCertificates"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SecTrustSetPolicies"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "certData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "certificateChain"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "certificates"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "extractPublicKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isReady"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "isValid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "key"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "paths"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pubKeys"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "publicKeyChain"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "usePublicKeys"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "usleep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "validatedDN"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So6BundleC"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s14CountableRangeV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDataC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So9OS_objectC"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "s22RandomAccessCollectionP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- "18StarscreamSocketIO7SSLCertC"
+- "18StarscreamSocketIO11SSLSecurityC"
+- "18StarscreamSocketIO17SSLTrustValidatorP"
+- !private "SC18SecTrustResultTypeO"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+- !private "isEqual"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/Target Support Files/StarscreamSocketIO/StarscreamSocketIO-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Pods.build/Debug-iphoneos/StarscreamSocketIO.build/unextended-module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/StarscreamSocketIO/zlib/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "c09f36489b015e2aa48d011e75498af9"

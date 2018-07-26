@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -39,11 +39,28 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cropped-rev3-02-2-1600x1607" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Njr-GD-0rL">
+                                <rect key="frame" x="147.5" y="567" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="JYc-MV-VGf"/>
+                                    <constraint firstAttribute="height" constant="80" id="aeK-05-cbr"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ech-5i-hBI">
+                                <rect key="frame" x="140.5" y="527.5" width="95" height="20.5"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="17"/>
+                                <color key="textColor" red="0.26274509800000001" green="0.35686274509999999" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Njr-GD-0rL" firstAttribute="top" secondItem="ech-5i-hBI" secondAttribute="bottom" constant="19" id="NRU-ln-t4o"/>
+                            <constraint firstItem="Njr-GD-0rL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="gDJ-XM-F7W"/>
+                            <constraint firstItem="ech-5i-hBI" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lGX-Se-7rm"/>
                             <constraint firstItem="cIw-VT-Acq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="lkW-cU-Xs4"/>
                             <constraint firstItem="cIw-VT-Acq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="osc-Ui-7yJ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Njr-GD-0rL" secondAttribute="bottom" constant="20" id="sH2-d3-c32"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -53,6 +70,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cropped-rev3-02-2-1600x1607" width="1600" height="1607"/>
         <image name="smackLogo" width="48" height="40"/>
     </resources>
 </document>

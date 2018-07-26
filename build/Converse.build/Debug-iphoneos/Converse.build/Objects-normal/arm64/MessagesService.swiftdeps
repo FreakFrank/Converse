@@ -1,0 +1,362 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MessagesService"
+provides-nominal:
+- "8Converse15MessagesServiceC"
+provides-member:
+- ["8Converse15MessagesServiceC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "=="
+- !private "Alamofire"
+- !private "BEARER_HEADER"
+- "BooleanLiteralType"
+- !private "CastingPrecedence"
+- "Channel"
+- "CompletionHandler"
+- !private "GET_CHANNELS_URL"
+- !private "GET_MESSAGES_URL"
+- !private "JSON"
+- !private "JSONEncoding"
+- "Message"
+- "MessagesService"
+- !private "NOTIFY_CHANNELS_LOADED"
+- !private "NotificationCenter"
+- "String"
+- !private "debugPrint"
+depends-member:
+- !private ["Sa", "append"]
+- ["Sa", "init"]
+- !private ["Sa", "removeAll"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "removeAll"]
+- !private ["s23BidirectionalCollectionP", "stringValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "default"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "post"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["8Converse7ChannelV", "init"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "array"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "removeAll"]
+- !private ["s10CollectionP", "stringValue"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "array"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "stringValue"]
+- !private ["s10ComparableP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "array"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "error"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "post"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "responseJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "array"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "post"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
+- !private ["9Alamofire12DataResponseV", "data"]
+- !private ["9Alamofire12DataResponseV", "result"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "removeAll"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "removeAll"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "array"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "get"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "post"]
+- !private ["s9EquatableP", "removeAll"]
+- !private ["s9EquatableP", "stringValue"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "array"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeAll"]
+- !private ["s25ExpressibleByArrayLiteralP", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "array"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "stringValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "array"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "stringValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "array"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "stringValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "array"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "stringValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "array"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "stringValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "array"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "stringValue"]
+- !private ["s23ExpressibleByNilLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "array"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "stringValue"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "array"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "stringValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["9Alamofire10HTTPMethodO", "get"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "get"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "post"]
+- !private ["10SwiftyJSON0B0V", "array"]
+- !private ["10SwiftyJSON0B0V", "init"]
+- !private ["10SwiftyJSON0B0V", "stringValue"]
+- !private ["10SwiftyJSON0B0V", "subscript"]
+- !private ["9Alamofire12JSONEncodingV", "default"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s22LazyCollectionProtocolP", "stringValue"]
+- !private ["s20LazySequenceProtocolP", "stringValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["8Converse7MessageV", "init"]
+- !private ["8Converse15MessagesServiceC", "Alamofire"]
+- !private ["8Converse15MessagesServiceC", "BEARER_HEADER"]
+- ["8Converse15MessagesServiceC", "Channel"]
+- ["8Converse15MessagesServiceC", "CompletionHandler"]
+- !private ["8Converse15MessagesServiceC", "GET_CHANNELS_URL"]
+- !private ["8Converse15MessagesServiceC", "GET_MESSAGES_URL"]
+- !private ["8Converse15MessagesServiceC", "JSON"]
+- !private ["8Converse15MessagesServiceC", "JSONEncoding"]
+- ["8Converse15MessagesServiceC", "Message"]
+- ["8Converse15MessagesServiceC", "MessagesService"]
+- !private ["8Converse15MessagesServiceC", "NOTIFY_CHANNELS_LOADED"]
+- !private ["8Converse15MessagesServiceC", "NotificationCenter"]
+- ["8Converse15MessagesServiceC", "String"]
+- ["8Converse15MessagesServiceC", "channels"]
+- ["8Converse15MessagesServiceC", "clearAllChannels"]
+- ["8Converse15MessagesServiceC", "clearAllMessages"]
+- !private ["8Converse15MessagesServiceC", "debugPrint"]
+- ["8Converse15MessagesServiceC", "deinit"]
+- ["8Converse15MessagesServiceC", "getAllChannels"]
+- ["8Converse15MessagesServiceC", "getAllMessagesForSpecificChannel"]
+- ["8Converse15MessagesServiceC", "init"]
+- ["8Converse15MessagesServiceC", "instance"]
+- ["8Converse15MessagesServiceC", "messages"]
+- ["8Converse15MessagesServiceC", "selectedChannel"]
+- ["8Converse15MessagesServiceC", "unreadChannels"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "removeAll"]
+- !private ["s17MutableCollectionP", "stringValue"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "post"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "post"]
+- !private ["So18NotificationCenterC", "default"]
+- !private ["So18NotificationCenterC", "post"]
+- !private ["9Alamofire17ParameterEncodingP", "default"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "removeAll"]
+- !private ["s22RandomAccessCollectionP", "stringValue"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "removeAll"]
+- !private ["s26RangeReplaceableCollectionP", "stringValue"]
+- !private ["s16RawRepresentableP", "array"]
+- !private ["s16RawRepresentableP", "get"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "stringValue"]
+- !private ["s16RawRepresentableP", "subscript"]
+- !private ["9Alamofire7RequestC", "responseJSON"]
+- !private ["9Alamofire8ResponseP", "data"]
+- !private ["9Alamofire8ResponseP", "result"]
+- !private ["9Alamofire6ResultO", "error"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "array"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "removeAll"]
+- !private ["s8SequenceP", "stringValue"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s5SliceV", "stringValue"]
+- !private ["8SocketIO0A4DataP", "_getBuiltinLogicValue"]
+- !private ["8SocketIO0A4DataP", "append"]
+- ["8SocketIO0A4DataP", "init"]
+- !private ["8SocketIO0A4DataP", "removeAll"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "removeAll"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "removeAll"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "8Converse7ChannelV"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9Alamofire10HTTPMethodO"
+- !private "s8HashableP"
+- !private "10SwiftyJSON0B0V"
+- !private "9Alamofire12JSONEncodingV"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "8Converse7MessageV"
+- "8Converse15MessagesServiceC"
+- !private "s10MirrorPathP"
+- "s17MutableCollectionP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So18NotificationCenterC"
+- !private "9Alamofire17ParameterEncodingP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- !private "9Alamofire6ResultO"
+- "s8SequenceP"
+- !private "s5SliceV"
+- "8SocketIO0A4DataP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "9Alamofire14URLConvertibleP"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/arm64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/StarscreamSocketIO.swiftmodule/arm64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Converse-Bridging-Header.h"
+- "/Users/kareemismail/XCodeProjects/Converse/SWRevealViewController.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/StarscreamSocketIO/zlib/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "70218735e3db0bc68a73cb8c9e6626d7"

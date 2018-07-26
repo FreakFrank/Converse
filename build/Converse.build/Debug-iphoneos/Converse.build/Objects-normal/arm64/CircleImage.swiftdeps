@@ -1,0 +1,313 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CircleImage"
+provides-nominal:
+- "8Converse11CircleImageC"
+provides-member:
+- ["8Converse11CircleImageC", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "prepareForInterfaceBuilder"
+- "setUpView"
+depends-top-level:
+- !private "/"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CircleImage"
+- "UIImageView"
+depends-member:
+- !private ["So7CALayerC", "cornerRadius"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "clipsToBounds"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "layer"]
+- !private ["So15CALayerDelegateP", "setUpView"]
+- !private ["So13CAMediaTimingP", "cornerRadius"]
+- !private ["SC6CGRectV", "size"]
+- !private ["SC6CGSizeV", "width"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "clipsToBounds"]
+- !private ["s7CVarArgP", "cornerRadius"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "layer"]
+- !private ["s7CVarArgP", "setUpView"]
+- ["8Converse11CircleImageC", "awakeFromNib"]
+- !private ["8Converse11CircleImageC", "clipsToBounds"]
+- ["8Converse11CircleImageC", "deinit"]
+- !private ["8Converse11CircleImageC", "frame"]
+- ["8Converse11CircleImageC", "init"]
+- !private ["8Converse11CircleImageC", "layer"]
+- ["8Converse11CircleImageC", "prepareForInterfaceBuilder"]
+- ["8Converse11CircleImageC", "setUpView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "clipsToBounds"]
+- !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "layer"]
+- !private ["s28CustomDebugStringConvertibleP", "setUpView"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "width"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "clipsToBounds"]
+- !private ["s23CustomStringConvertibleP", "cornerRadius"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "layer"]
+- !private ["s23CustomStringConvertibleP", "setUpView"]
+- !private ["s9DecodableP", "size"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "size"]
+- !private ["s9EncodableP", "width"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "awakeFromNib"]
+- !private ["s9EquatableP", "clipsToBounds"]
+- !private ["s9EquatableP", "cornerRadius"]
+- !private ["s9EquatableP", "frame"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "layer"]
+- !private ["s9EquatableP", "setUpView"]
+- !private ["s9EquatableP", "size"]
+- !private ["s9EquatableP", "width"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "awakeFromNib"]
+- !private ["s8HashableP", "clipsToBounds"]
+- !private ["s8HashableP", "cornerRadius"]
+- !private ["s8HashableP", "frame"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "layer"]
+- !private ["s8HashableP", "setUpView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "clipsToBounds"]
+- !private ["So8NSCodingP", "cornerRadius"]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "layer"]
+- !private ["So8NSCodingP", "setUpView"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "clipsToBounds"]
+- !private ["So8NSObjectC", "cornerRadius"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "layer"]
+- ["So8NSObjectC", "prepareForInterfaceBuilder"]
+- ["So8NSObjectC", "setUpView"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "awakeFromNib"]
+- !private ["So16NSObjectProtocolP", "clipsToBounds"]
+- !private ["So16NSObjectProtocolP", "cornerRadius"]
+- !private ["So16NSObjectProtocolP", "frame"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "layer"]
+- !private ["So16NSObjectProtocolP", "setUpView"]
+- !private ["So14NSSecureCodingP", "cornerRadius"]
+- ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", ""]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "awakeFromNib"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "clipsToBounds"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "frame"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layer"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setUpView"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "clipsToBounds"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "layer"]
+- !private ["So29UIAccessibilityIdentificationP", "setUpView"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "clipsToBounds"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "layer"]
+- !private ["So12UIAppearanceP", "setUpView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "clipsToBounds"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "layer"]
+- !private ["So21UIAppearanceContainerP", "setUpView"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "clipsToBounds"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "layer"]
+- !private ["So17UICoordinateSpaceP", "setUpView"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "clipsToBounds"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "layer"]
+- !private ["So13UIDynamicItemP", "setUpView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "clipsToBounds"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "layer"]
+- !private ["So18UIFocusEnvironmentP", "setUpView"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "clipsToBounds"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "layer"]
+- !private ["So11UIFocusItemP", "setUpView"]
+- ["So11UIImageViewC", ""]
+- ["So11UIImageViewC", "awakeFromNib"]
+- !private ["So11UIImageViewC", "clipsToBounds"]
+- !private ["So11UIImageViewC", "frame"]
+- ["So11UIImageViewC", "init"]
+- !private ["So11UIImageViewC", "layer"]
+- ["So11UIImageViewC", "prepareForInterfaceBuilder"]
+- ["So11UIImageViewC", "setUpView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "clipsToBounds"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "layer"]
+- !private ["So30UIPasteConfigurationSupportingP", "setUpView"]
+- ["So11UIResponderC", "awakeFromNib"]
+- !private ["So11UIResponderC", "clipsToBounds"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "layer"]
+- ["So11UIResponderC", "prepareForInterfaceBuilder"]
+- ["So11UIResponderC", "setUpView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "clipsToBounds"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "layer"]
+- !private ["So30UIResponderStandardEditActionsP", "setUpView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "clipsToBounds"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "layer"]
+- !private ["So18UITraitEnvironmentP", "setUpView"]
+- ["So6UIViewC", "awakeFromNib"]
+- !private ["So6UIViewC", "clipsToBounds"]
+- !private ["So6UIViewC", "frame"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "layer"]
+- ["So6UIViewC", "prepareForInterfaceBuilder"]
+- ["So6UIViewC", "setUpView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "clipsToBounds"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "layer"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setUpView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clipsToBounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUpView"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+depends-nominal:
+- !private "So7CALayerC"
+- "So15CALayerDelegateP"
+- !private "So13CAMediaTimingP"
+- !private "SC6CGRectV"
+- !private "SC6CGSizeV"
+- "s7CVarArgP"
+- "8Converse11CircleImageC"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So11UIImageViewC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Modules/SocketIO.swiftmodule/arm64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/StarscreamSocketIO.swiftmodule/arm64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers/Socket.IO-Client-Swift-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Converse-Bridging-Header.h"
+- "/Users/kareemismail/XCodeProjects/Converse/SWRevealViewController.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Headers/SocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Headers/StarscreamSocketIO-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kareemismail/XCodeProjects/Converse/Pods/StarscreamSocketIO/zlib/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Socket.IO-Client-Swift/SocketIO.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/StarscreamSocketIO/StarscreamSocketIO.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/Converse/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "1108745d9c7c8ac1b0ded52cfe2faf7e"
